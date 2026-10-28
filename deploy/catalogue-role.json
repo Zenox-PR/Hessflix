@@ -1,0 +1,13 @@
+{
+  "title": "Hessflix catalogue runtime",
+  "description": "Firestore document reads, writes and transactions only; no database, rules, index or IAM administration. Add alongside the authentication runtime role after explicit review.",
+  "stage": "GA",
+  "includedPermissions": [
+    "datastore.databases.get",
+    "datastore.entities.get",
+    "datastore.entities.list",
+    "datastore.entities.create",
+    "datastore.entities.update",
+    "datastore.entities.delete"
+  ]
+}

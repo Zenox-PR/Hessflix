@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explorez l’univers Netflix dans la sélection Hessflix.">
+  <title>Netflix — Hessflix</title>
+  <link rel="icon" type="image/svg+xml" href="assets/hessflix-mark.svg">
+  <link rel="stylesheet" href="platform-page.css">
+    <link rel="stylesheet" href="tmdb.css">
+  <link rel="stylesheet" href="discovery.css">
+  <link rel="stylesheet" href="ambient.css">
+  <link rel="stylesheet" href="account.css">
+  <link rel="stylesheet" href="profile-picker.css">
+  <link rel="stylesheet" href="liquid-ui.css">
+  <script src="personal-model.js" defer></script>
+  <script src="personal-sync.js" defer></script>
+  <script src="profile-activity.js" defer></script>
+  <script src="profiles.js" defer></script>
+  <script src="catalogue-model.js" defer></script><script src="auth-session.js" defer></script><script src="account-login.js" defer></script><script src="account-page.js" defer></script><script src="account.js" defer></script>
+  <script src="firebase-auth.js" defer></script>
+  <link rel="stylesheet" href="catalogue-loading.css">
+  <script src="catalogue-loading.js" defer></script>
+  <script src="catalogue-data.js" defer></script>
+  <script src="title-navigation.js" defer></script>
+    <script src="tmdb-client.js" defer></script>
+  <script src="catalogue-ui.js" defer></script>
+  <script src="platform-page.js" defer></script>
+  <script src="discovery.js" defer></script>
+  <script src="ambient.js" defer></script>
+</head>
+<body data-platform="netflix">
+  <header class="universe-header">
+    <a class="back-link" href="index.html#platform-title">← Retour à Hessflix</a>
+    <span class="header-divider" aria-hidden="true"></span>
+    <a class="wordmark" id="universe-name" href="netflix.html">Netflix</a>
+    <nav class="universe-nav" aria-label="Navigation de l’univers">
+      <a href="#selection">La sélection</a>
+      <a href="#universe-switch">Les plateformes</a>
+    </nav>
+    <div data-account-slot><a class="account-disconnected" href="connexion.html?retour=netflix.html">Profil (Déconnecté)</a></div>
+  </header>
+  <main class="universe-main">
+    <section class="universe-hero" aria-labelledby="universe-heading">
+      <div class="hero-copy">
+        <p class="eyebrow" id="universe-eyebrow">L’univers Netflix</p>
+        <h1 id="universe-heading">Bienvenue dans votre univers.</h1>
+        <p class="hero-description" id="universe-description"></p>
+        <div class="hero-actions">
+          <a class="primary" href="#selection">Explorer la sélection <span aria-hidden="true">&nbsp;↗</span></a>
+          <button class="secondary" type="button" id="featured-title">Le titre à découvrir</button>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="art-ring" aria-hidden="true"></div>
+        <div class="art-shape" aria-hidden="true"></div>
+        <div class="logo-plaque"><img id="universe-logo" src="assets/platforms/netflix.png" alt="Netflix"></div>
+        <span class="art-caption" aria-hidden="true">Un univers à explorer</span>
+      </div>
+    </section>
+    <nav class="platform-switch" id="universe-switch" aria-label="Changer de plateforme"></nav>
+    <aside class="availability-banner"><p id="availability-date">Vérification de la sélection…</p><a id="provider-source" href="assets/discovery/PLATFORMS.md">Sources de disponibilité ↗</a><span>Abonnement · hors achat, location et chaînes additionnelles · disponibilité susceptible de changer</span></aside>
+    <section class="catalogue-section" id="selection" aria-labelledby="collection-title">
+      <div class="section-top">
+        <div><p class="eyebrow">LA SÉLECTION HESSFLIX</p><h2 id="collection-title">À découvrir</h2></div>
+        <label class="search-field" for="universe-search">Rechercher dans cet univers<input type="search" id="universe-search" placeholder="Un titre, un genre…" autocomplete="off"></label>
+      </div>
+      <div class="catalogue-toolbar">
+        <div class="filters" role="group" aria-label="Type de contenu">
+          <button type="button" data-kind="Tous" aria-pressed="true">Tout</button>
+          <button type="button" data-kind="Film" aria-pressed="false">Films</button>
+          <button type="button" data-kind="Série" aria-pressed="false">Séries</button>
+          <button type="button" data-kind="Animation" aria-pressed="false">Animation</button>
+          <button type="button" data-local-favorites aria-pressed="false">☆ Favoris</button>
+        </div>
+        <p class="result-count" id="universe-count" role="status"></p>
+      </div>
+      <div id="discovery-sections"></div>
+      <section id="universe-results" class="universe-results" aria-labelledby="universe-selection-title"><div class="section-heading"><h2 id="universe-selection-title">Toute la sélection</h2><button type="button" class="text-button" id="universe-reset">Tout afficher ↗</button></div><div class="universe-catalogue catalogue" id="universe-catalogue"></div>
+      <div class="empty-state" id="empty-state" hidden><p>Aucun titre ne correspond à votre recherche.</p><button type="button" class="secondary" id="reset-search">Réinitialiser la recherche</button></div>
+    </section>
+    </section>
+    <noscript><p>Activez JavaScript pour afficher la sélection et utiliser la recherche. <a href="index.html">Revenir à l’accueil</a></p></noscript>
+  </main>
+  <footer class="universe-footer">
+    <p>Hessflix · Sélection France vérifiée, non exhaustive. Top 10 selon les notes de cette sélection, pas les audiences du service. Aucune vidéo hébergée.</p>
+    <a href="assets/discovery/PLATFORMS.md">Sources du catalogue et disponibilités ↗</a><a href="assets/platforms/SOURCES.md">Crédits visuels ↗</a>
+  <a class="tmdb-credits-link" href="credits.html">Crédits &amp; TMDB</a></footer>
+  <div id="discovery-notice" class="discovery-notice" role="status" aria-live="polite"></div>
+  <dialog id="title-dialog" aria-labelledby="dialog-title">
+    <button type="button" class="dialog-close" id="close-title" aria-label="Fermer la fiche">×</button>
+    <div id="title-dialog-content"></div>
+  </dialog>
+</body>
+</html>

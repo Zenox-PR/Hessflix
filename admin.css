@@ -1,0 +1,17 @@
+.admin-gate, .admin-workspace { position: relative; max-width: 1000px; margin: 55px auto 70px; padding: 0 30px; }
+.admin-gate { max-width: 760px; }
+.admin-gate h1, .admin-workspace h1 { font-size: clamp(2.7rem, 5vw, 4.4rem); line-height: 1.05; letter-spacing: -.065em; margin: 18px 0 25px; }
+.admin-lead { max-width: 580px; color: #aaaabb; line-height: 1.8; font-size: .92rem; }
+.admin-access-card { padding: 30px; margin: 28px 0; background: #14141de8; border: 1px solid #ffffff1b; border-radius: 21px; box-shadow: 0 15px 50px #0002; }
+.admin-access-card h2 { font-size: 1.4rem; }
+.admin-access-card p { color: #a5a5ba; line-height: 1.8; font-size: .83rem; }
+.admin-access-card .primary, .admin-access-card .secondary { margin: 10px 8px 0 0; }
+.admin-access-card button:disabled { opacity: .45; cursor: default; }
+.admin-seal { display: grid; place-items: center; width: 42px; height: 42px; margin-bottom: 22px; border: 1px solid #ff8f7950; border-radius: 12px; background: #ff8f7910; color: #ffb197; font-size: 1.6rem; }
+.admin-summary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.admin-summary-grid .admin-access-card { margin-bottom: 0; }
+.admin-small-label { display: block; margin-bottom: 18px; color: #bca9d6; font-size: .65rem; letter-spacing: .12em; }
+.admin-session-info { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 15px; margin: 25px 0; font-size: .8rem; }
+.admin-session-info dt { color: #9999ae; }
+.admin-session-info dd { margin: 0; overflow-wrap: anywhere; }
+@media(max-width: 650px) { .admin-gate, .admin-workspace { padding: 0 20px; margin-top: 30px; } .admin-summary-grid { grid-template-columns: 1fr; gap: 0; } .admin-access-card { padding: 24px; } .admin-session-info { grid-template-columns: 1fr; gap: 8px; } .admin-session-info dd { margin-bottom: 12px; } }

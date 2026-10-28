@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez les films, séries et séries animées sur Hessflix : présentation, saisons, épisodes et services officiels disponibles en France.">
+  <title>Fiche — Hessflix</title>
+  <link rel="icon" type="image/svg+xml" href="assets/hessflix-mark.svg">
+  <link rel="stylesheet" href="platform-page.css">
+    <link rel="stylesheet" href="tmdb.css">
+  <link rel="stylesheet" href="ambient.css">
+  <link rel="stylesheet" href="account.css">
+  <link rel="stylesheet" href="account-pages.css">
+  <link rel="stylesheet" href="profile-picker.css">
+  <link rel="stylesheet" href="title-page.css">
+  <link rel="stylesheet" href="liquid-ui.css">
+  <script src="personal-model.js" defer></script>
+  <script src="personal-sync.js" defer></script>
+  <script src="profile-activity.js" defer></script>
+  <script src="profiles.js" defer></script>
+  <script src="catalogue-model.js" defer></script>
+  <script src="auth-session.js" defer></script>
+  <script src="account-login.js" defer></script>
+  <script src="account-page.js" defer></script>
+  <script src="account.js" defer></script>
+  <script src="firebase-auth.js" defer></script>
+  <link rel="stylesheet" href="catalogue-loading.css">
+  <script src="catalogue-loading.js" defer></script>
+  <script src="catalogue-data.js" defer></script>
+  <script src="title-navigation.js" defer></script>
+    <script src="tmdb-client.js" defer></script>
+  <script src="tmdb-episodes.js" defer></script>
+  <link rel="stylesheet" href="video-player.css">
+  <script src="video-player.js" defer></script>
+  <script src="title-video.js" defer></script>
+  <script src="title-page.js" defer></script>
+  <script src="ambient.js" defer></script>
+</head>
+<body class="title-page">
+  <header class="account-page-header title-header">
+    <a class="account-page-brand" href="index.html" aria-label="Hessflix, accueil"><img src="assets/hessflix-mark.svg" alt=""><span class="brand-name">hess<span>flix</span></span></a>
+    <nav aria-label="Navigation de la fiche"><a href="index.html#suggestions-demo">← Retour aux découvertes</a></nav>
+    <div data-account-slot><a class="account-disconnected" href="connexion.html?retour=titre.html">Profil (Déconnecté)</a></div>
+  </header>
+  <main class="title-main">
+    <p id="title-loading" class="title-loading" role="status">Préparation de votre prochaine histoire…</p>
+    <section id="title-not-found" class="title-not-found" hidden>
+      <p class="eyebrow">FICHE INDISPONIBLE</p><h1 id="title-error-heading">Ce titre n’est pas dans notre sélection.</h1>
+      <p id="title-error-description">Retrouvez les films et les séries depuis nos sélections.</p>
+      <a href="index.html">← Revenir à l’accueil</a><button type="button" id="title-reload" class="title-secondary" hidden>Réessayer</button>
+    </section>
+    <noscript><p class="title-not-found">Activez JavaScript pour afficher cette fiche. <a href="index.html">Retour à l’accueil</a></p></noscript>
+    <article id="title-content" hidden>
+      <div class="title-backdrop" id="title-backdrop" aria-hidden="true"></div>
+      <section class="title-hero" aria-labelledby="title-name">
+        <div class="title-poster-column"><div class="title-art" id="title-art"></div><p class="poster-caption">UNE HISTOIRE À DÉCOUVRIR</p></div>
+        <div class="title-intro">
+          <p class="eyebrow">LE CINÉMA, LES SÉRIES, VOS ENVIES</p>
+          <p id="title-kind" class="title-kind"></p>
+          <h1 id="title-name"></h1>
+          <div id="title-facts" class="title-facts"></div><p id="tmdb-title-note" class="tmdb-note" role="status" hidden></p>
+          <div id="title-genres" class="title-genres"></div>
+          <div class="overview-block"><h2>Le synopsis</h2><p id="title-overview" class="title-overview"></p><button type="button" id="overview-toggle" class="overview-toggle" aria-expanded="false" aria-controls="title-overview" hidden>Lire la suite</button></div>
+          <div id="title-actions" class="title-actions"></div>
+          <p id="title-watch-hint" class="title-watch-hint"></p>
+        </div>
+      </section>
+      <nav class="title-jump-nav" aria-label="Explorer cette fiche">
+        <a id="episode-jump" href="#episode-section" hidden>Saisons & épisodes</a><a href="#watch-title">Où regarder</a><a href="#about-title">Les détails</a><a id="related-jump" href="#related-section" hidden>À découvrir aussi</a>
+      </nav>
+      <section id="video-section" class="video-section" aria-labelledby="video-heading" hidden>
+        <p class="eyebrow">VOTRE SÉANCE SUR HESSFLIX</p><h2 id="video-heading">Le lecteur</h2>
+        <p id="video-selection" class="video-notice" role="status"></p>
+        <div id="video-controls" class="video-controls"></div><div id="video-mount"></div>
+        <p class="video-privacy">Le lecteur externe Vidmoly est contacté uniquement après votre demande de lecture. Ses disponibilités, publicités et restrictions dépendent de Vidmoly. Hessflix ne peut pas confirmer automatiquement la lecture ni récupérer sa progression.</p>
+      </section>
+      <section id="episode-section" class="episode-section" aria-labelledby="episode-title" hidden>
+        <div class="episode-heading"><div><p class="eyebrow">UNE HISTOIRE, ÉPISODE APRÈS ÉPISODE</p><h2 id="episode-title">Les saisons & épisodes</h2><p id="episode-summary"></p></div><span class="section-index" aria-hidden="true">01 / EXPLORER</span></div>
+        <div id="season-strip" class="season-strip" role="group" aria-label="Choisir une saison"></div>
+        <div id="episode-toolbar" class="episode-toolbar">
+          <label for="season-select">Saison<select id="season-select"></select></label>
+          <label for="episode-select">Épisode<select id="episode-select"></select></label>
+          <div class="episode-stepper"><button type="button" id="episode-prev" aria-label="Épisode précédent">← Précédent</button><button type="button" id="episode-next" aria-label="Épisode suivant">Suivant →</button></div>
+        </div>
+        <p id="episode-selected" class="episode-selected" role="status" aria-live="polite"></p>
+        <p id="episode-empty" class="episode-empty" role="status" hidden></p>
+        <div id="episode-list" class="episode-list"></div>
+        <p class="title-caveat">Guide des épisodes : TVMaze. Une saison ou un épisode peut ne pas être disponible sur le service indiqué en France. Les langues proposées se vérifient sur ce service.</p>
+      </section>
+      <div class="title-columns">
+        <section class="title-panel" aria-labelledby="watch-title">
+          <p class="eyebrow">VOTRE PROCHAINE SÉANCE</p><h2 id="watch-title">Où regarder ?</h2><p id="watch-intro"></p><div id="watch-options" class="watch-options"></div><p id="watch-caveat" class="title-caveat"></p>
+        </section>
+        <section class="title-panel title-source-panel" aria-labelledby="about-title">
+          <p class="eyebrow">POUR EN SAVOIR PLUS</p><h2 id="about-title">Les détails</h2><dl id="title-metadata"></dl><div id="title-sources" class="title-sources"></div>
+        </section>
+      </div>
+      <section id="related-section" class="related-section" aria-labelledby="related-title" hidden>
+        <div class="episode-heading"><div><p class="eyebrow">PROLONGEZ LA DÉCOUVERTE</p><h2 id="related-title">Dans le même esprit</h2><p>Des titres de notre sélection qui partagent les mêmes genres.</p></div><span class="section-index" aria-hidden="true">À EXPLORER</span></div>
+        <div id="related-list" class="related-list"></div>
+      </section>
+      <footer class="title-footer"><span>hessflix · Toutes vos histoires commencent par une envie.</span><a href="index.html">Retour aux sélections ↗</a><a class="tmdb-credits-link" href="credits.html">Crédits &amp; TMDB</a></footer>
+    </article>
+  </main>
+</body>
+</html>

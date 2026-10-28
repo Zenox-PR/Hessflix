@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "allowJs": true, "checkJs": true, "strict": true, "noEmit": true,
+    "target": "ES2022", "module": "NodeNext", "moduleResolution": "NodeNext",
+    "lib": ["ES2022", "DOM"], "types": ["node"], "skipLibCheck": true
+  },
+  "include": ["types/**/*.d.ts", "catalogue-model.js", "catalogue-ui.js", "auth-session.js", "app.js", "discovery.js", "platform-page.js", "title-navigation.js", "title-page.js", "firebase-auth.js", "tmdb-client.js", "tmdb-browser.js", "tmdb-episodes.js", "admin-catalogue.js", "video-player.js", "title-video.js", "admin-video.js"]
+}

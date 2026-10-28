@@ -1,0 +1,16 @@
+.video-section { margin: 28px 0 44px; padding: clamp(18px, 3vw, 32px); border: 1px solid #8ab4ff26; border-radius: 24px; background: #0b1221b3; scroll-margin-top: 100px; }
+.video-section h2 { margin: 0 0 10px; }
+.video-controls { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0; }
+.video-controls button { cursor: pointer; border-radius: 12px; padding: 11px 16px; border: 1px solid #9bbce836; background: #b5d4ff; color: #101b2c; font: inherit; font-weight: 650; }
+.video-controls button:disabled { opacity: .6; cursor: wait; }
+.video-controls button:focus-visible { outline: 2px solid #d1e3ff; outline-offset: 4px; }
+.video-screen { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #03060c; border: 1px solid #99bfff33; border-radius: 16px; overflow: hidden; }
+.video-screen iframe { display: block; position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-screen[hidden] { display: none; }
+.video-external { display: inline-block; color: #c0d9ff; margin: 8px 0; text-underline-offset: 4px; }
+.video-notice, .video-privacy { color: #adb8ce; font-size: .9rem; line-height: 1.6; overflow-wrap: anywhere; }
+.admin-video-panel { padding: 20px; margin: 20px 0; border: 1px solid #8ab4ff35; border-radius: 18px; background: #0b1221bd; }
+.admin-video-panel label { display: flex; flex-direction: column; gap: 8px; margin: 12px 0; }
+.admin-video-panel .admin-checkbox { flex-direction: row; align-items: flex-start; }
+.admin-video-panel input[type=url] { box-sizing: border-box; width: 100%; min-width: 0; padding: 12px; color: #ecf4ff; background: #0b101c; border: 1px solid #9bbce846; border-radius: 10px; }
+@media (max-width: 600px) { .video-section, .admin-video-panel { padding: 16px; border-radius: 16px; } .video-controls button { flex: 1 1 150px; min-width: 0; } .video-screen { border-radius: 10px; } }

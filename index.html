@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Prototype local d'une interface de catalogue vidéo." />
+    <title>Hessflix — Découvrir autrement</title>
+    <link rel="icon" type="image/svg+xml" href="assets/hessflix-mark.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="tmdb.css">
+    <link rel="stylesheet" href="discovery.css" />
+    <link rel="stylesheet" href="platforms.css" />
+    <link rel="stylesheet" href="ambient.css" />
+    <link rel="stylesheet" href="account.css" />
+    <link rel="stylesheet" href="profile-picker.css">
+    <link rel="stylesheet" href="liquid-ui.css">
+    <link rel="stylesheet" href="hero.css">
+    <script src="personal-model.js" defer></script>
+    <script src="personal-sync.js" defer></script>
+    <script src="profile-activity.js" defer></script>
+    <script src="profiles.js" defer></script>
+    <script src="catalogue-model.js" defer></script><script src="auth-session.js" defer></script><script src="account-login.js" defer></script><script src="account-page.js" defer></script><script src="account.js" defer></script>
+    <script src="firebase-auth.js" defer></script>
+    <script src="hero.js" defer></script>
+    <link rel="stylesheet" href="catalogue-loading.css">
+    <script src="catalogue-loading.js" defer></script>
+    <script src="ambient.js" defer></script>
+  </head>
+  <body>
+    <div class="aurora aurora-one"></div>
+    <div class="aurora aurora-two"></div>
+    <header class="topbar">
+      <a class="brand" href="#accueil" aria-label="Hessflix, accueil"><span class="brand-mark"><img src="assets/hessflix-mark.svg" alt=""></span><span class="brand-name">hess<span>flix</span></span></a>
+      <nav aria-label="Navigation principale">
+        <a class="active" href="#accueil">Accueil</a>
+        <a href="#resultats" data-nav-kind="Film">Films</a>
+        <a href="#resultats" data-nav-kind="Série">Séries</a>
+        <a href="#resultats" data-nav-kind="Anime">Animes</a>
+        <a href="#tendances">Explorer</a>
+      </nav>
+      <div class="tools">
+        <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Rechercher un film, une série…" /></label>
+        <div data-account-slot><a class="account-disconnected" href="connexion.html?retour=index.html">Profil (Déconnecté)</a></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero cinematic-hero" id="accueil" data-hero-banner>
+        <div class="hero-copy">
+          <p class="eyebrow">LA SÉLECTION HESSFLIX</p>
+          <h1 class="hero-heading">Votre prochaine histoire vous attend.</h1>
+          <p class="hero-description">Chargement de la sélection choisie par Hessflix…</p>
+        </div>
+      </section>
+
+      <section class="platform-section" aria-labelledby="platform-title">
+        <div class="section-heading"><div><p class="eyebrow">VOS UNIVERS PRÉFÉRÉS</p><h2 id="platform-title">Explorez les plateformes</h2></div><p class="platform-hint" id="platform-hint">Survolez les logos pour les animer</p></div>
+        <div class="platform-grid" id="platform-cards" aria-describedby="platform-hint"></div>
+      </section>
+
+      <section class="quick-picks" aria-label="Raccourcis"><button class="selected" data-filter="Tous" aria-pressed="true">Pour vous</button><button data-filter="Film" aria-pressed="false">Films</button><button data-filter="Série" aria-pressed="false">Séries</button><button data-filter="Anime" aria-pressed="false">Animes</button><button data-filter="Animation" aria-pressed="false">Animation</button><button data-filter="Documentaire" aria-pressed="false">Documentaires</button><button data-local-favorites aria-pressed="false">☆ Mes favoris</button></section>
+
+      <section class="content-section" id="suggestions-demo">
+        <div class="section-heading"><div><p class="eyebrow">VOS PROCHAINES HISTOIRES</p><h2>Continuez l'aventure</h2></div><span class="result-count" id="continue-hint">Quelques idées pour commencer</span></div>
+        <div class="cards" id="continue-cards"></div>
+      </section>
+
+      <section class="content-section" id="resultats" hidden>
+        <div class="section-heading"><div><p class="eyebrow">DANS NOS SÉLECTIONS</p><h2 id="catalogue-selection">Résultats</h2></div><p id="result-count" class="result-count"></p></div>
+        <div class="catalogue" id="catalogue-cards" aria-live="polite"></div>
+        <p id="catalogue-empty" class="empty-catalogue" hidden>Aucun titre ici pour le moment. Essayez une autre recherche ou ajoutez des favoris avec l’étoile.</p>
+      </section>
+
+      <div id="discovery-sections"></div>
+    </main>
+
+    <footer><span class="brand small"><span class="brand-mark"><img src="assets/hessflix-mark.svg" alt=""></span><span class="brand-name">hess<span>flix</span></span></span><p>Une sélection pour découvrir. Notes IMDb / TVMaze ; Top 10 parmi les titres de cette sélection. Aucune vidéo hébergée.</p><a href="assets/discovery/SOURCES.md">Sources des affiches et des notes</a><a class="tmdb-credits-link" href="credits.html">Crédits &amp; TMDB</a></footer>
+
+    <div id="discovery-notice" class="discovery-notice" role="status" aria-live="polite"></div>
+
+    <dialog id="details-modal">
+      <button class="close" id="close-modal" aria-label="Fermer">×</button>
+      <div id="modal-content"></div>
+    </dialog>
+    <script src="catalogue-data.js" defer></script>
+    <script src="title-navigation.js" defer></script>
+    <script src="tmdb-client.js" defer></script>
+    <script src="catalogue-ui.js" defer></script>
+    <script src="app.js" defer></script>
+    <script src="discovery.js" defer></script>
+    <script src="platforms.js" defer></script>
+    <script src="tmdb-browser.js" defer></script>
+  </body>
+</html>

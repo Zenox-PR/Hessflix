@@ -1,0 +1,42 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAdmin() {
+      return request.auth != null
+        && request.auth.uid == 'example-admin-uid'
+        && request.auth.token.admin == true;
+    }
+    match /admin/{document=**} {
+      allow read, write: if isAdmin();
+    }
+    match /profiles/{uid} {
+      function owner() { return request.auth != null && request.auth.uid == uid; }
+      function validProfile() {
+        let data = request.resource.data;
+        return data.keys().hasAll(['displayName'])
+          && data.keys().hasOnly(['displayName', 'photoURL'])
+          && data.displayName is string && data.displayName.size() >= 1 && data.displayName.size() <= 60
+          && (!('photoURL' in data) || (data.photoURL is string && data.photoURL.size() <= 2048
+            && (data.photoURL == '' || data.photoURL.matches('^https://[A-Za-z0-9][A-Za-z0-9.-]*([/?#][A-Za-z0-9._~:/?#@!$&()*+,;=%-]*)?$'))));
+      }
+      allow read: if owner() || isAdmin();
+      allow create: if owner()
+        && validProfile();
+      allow update: if owner()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['displayName', 'photoURL'])
+        && validProfile();
+      allow delete: if owner();
+    }
+    // Catalogue privé : toutes les mutations passent par Node, session admin et IAM.
+    // Même un client avec claim admin ne peut pas contourner la validation serveur.
+    match /catalogueEntries/{document=**} { allow read, write: if false; }
+    // Listes et profils : identité du propriétaire vérifiée par Node sur chaque opération.
+    match /viewerAccounts/{document=**} { allow read, write: if false; }
+    match /publicCatalogue/{item} {
+      allow read: if resource.data.status == 'published';
+      allow write: if false;
+    }
+    // Aucun rôle ne se lit dans un document de profil. Tout autre chemin est refusé.
+    match /{document=**} { allow read, write: if false; }
+  }
+}

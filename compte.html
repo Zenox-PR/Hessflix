@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon compte — Hessflix</title>
+  <link rel="icon" type="image/svg+xml" href="assets/hessflix-mark.svg">
+  <link rel="stylesheet" href="platform-page.css">
+  <link rel="stylesheet" href="ambient.css">
+  <link rel="stylesheet" href="account.css">
+  <link rel="stylesheet" href="account-pages.css">
+  <link rel="stylesheet" href="avatar-picker.css">
+  <script src="ambient.js" defer></script>
+  <link rel="stylesheet" href="profile-picker.css">
+  <link rel="stylesheet" href="liquid-ui.css">
+  <link rel="stylesheet" href="profile-dashboard.css">
+  <script src="personal-model.js" defer></script>
+  <script src="personal-sync.js" defer></script>
+  <script src="profile-activity.js" defer></script>
+  <script src="profile-dashboard.js" defer></script>
+  <script src="profiles.js" defer></script>
+  <script src="catalogue-model.js" defer></script><script src="auth-session.js" defer></script><script src="account-login.js" defer></script><script src="account-page.js" defer></script><script src="account.js" defer></script>
+  <script src="firebase-auth.js" defer></script>
+  <link rel="stylesheet" href="catalogue-loading.css">
+  <script src="catalogue-loading.js" defer></script>
+  <script src="catalogue-data.js" defer></script>
+  <script src="avatar-catalogue.js" defer></script>
+  <script src="avatar-picker.js" defer></script>
+</head>
+<body>
+  <header class="account-page-header">
+    <a class="account-page-brand" href="index.html" aria-label="Hessflix, accueil"><img src="assets/hessflix-mark.svg" alt=""><span class="brand-name">hess<span>flix</span></span></a>
+    <div data-account-slot><a class="account-disconnected" href="connexion.html?retour=compte.html">Profil (Déconnecté)</a></div>
+  </header>
+  <main class="account-workspace profile-workspace">
+    <a class="account-page-back" href="index.html">← Retour au catalogue</a>
+    <h1 id="account-page-title" class="profile-page-heading">Mon profil</h1>
+      <section class="account-content-panel" id="account-content" aria-labelledby="account-page-subtitle">
+        <div class="account-identity">
+          <div class="profile-avatar-editor" id="profile-avatar-editor">
+            <button class="profile-avatar-trigger" id="profile-avatar-trigger" type="button" aria-label="Modifier mon avatar" aria-haspopup="menu" aria-expanded="false" aria-controls="profile-avatar-menu" disabled>
+              <img class="account-avatar" id="account-page-avatar" src="assets/avatar-neutral.svg" alt="Votre avatar">
+              <span class="profile-avatar-pencil" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m16 3 5 5L8 21H3v-5Z"/><path d="m14 5 5 5"/></svg></span>
+            </button>
+            <div class="profile-avatar-menu" id="profile-avatar-menu" role="menu" aria-label="Actions sur l’avatar" hidden>
+              <button id="change-avatar" type="button" role="menuitem">Changer d’avatar</button>
+              <button id="remove-avatar" type="button" role="menuitem" class="avatar-remove">Supprimer l’avatar</button>
+            </div>
+          </div>
+          <div class="profile-identity-copy"><p class="profile-eyebrow">VOTRE ESPACE PERSONNEL</p><div class="profile-name-row"><strong id="account-page-name">Votre profil</strong></div><p id="account-session-label"></p></div>
+          <nav class="account-sidebar profile-actions" aria-label="Actions du profil"><button id="edit-profile-name" class="primary" type="button" aria-expanded="false" aria-controls="profile-name-form" hidden>Modifier le profil</button><a class="secondary" href="#profils" data-switch-profile>Changer de profil</a><button id="profile-signout" class="secondary" type="button">Déconnexion</button></nav>
+        </div>
+        <form class="profile-name-form" id="profile-name-form" aria-label="Modifier le nom du profil" hidden>
+          <label for="profile-name-input">Nom du profil</label>
+          <input id="profile-name-input" name="displayName" type="text" autocomplete="nickname" maxlength="60" required aria-describedby="profile-name-help profile-name-status">
+          <p id="profile-name-help">De 1 à 60 caractères. Ce nom apparaît dans votre espace personnel.</p>
+          <div class="profile-name-actions"><button type="submit" id="save-profile-name">Enregistrer</button><button type="button" id="cancel-profile-name">Annuler</button></div>
+        </form>
+        <p class="profile-name-status" id="profile-name-status" role="status" hidden></p>
+        <p class="avatar-profile-status" id="avatar-profile-status" role="status" hidden></p>
+        <a class="primary" id="account-connect" href="connexion.html?retour=compte.html">Se connecter</a>
+      </section>
+    <p id="profile-action-status" class="profile-live-message" role="status"></p>
+    <section class="profile-stats" aria-label="Votre activité">
+      <a href="#visionnes" class="profile-stat"><span class="profile-stat-icon" data-profile-icon="history" aria-hidden="true"></span><span><strong id="profile-watched-count">0</strong><span>Visionnés</span></span></a>
+      <a href="#en-cours" class="profile-stat"><span class="profile-stat-icon" data-profile-icon="play" aria-hidden="true"></span><span><strong id="profile-progress-count">0</strong><span>En cours</span></span></a>
+      <a href="#favoris" class="profile-stat"><span class="profile-stat-icon" data-profile-icon="heart" aria-hidden="true"></span><span><strong id="profile-favorites-count">0</strong><span>Favoris</span></span></a>
+      <a href="#temps" class="profile-stat"><span class="profile-stat-icon" data-profile-icon="clock" aria-hidden="true"></span><span><strong id="profile-time-count">0min</strong><span>Temps sur le site</span></span></a>
+    </section>
+    <nav class="profile-tabs" aria-label="Rubriques du profil"><a href="#profil" data-account-section="profil">Accueil</a><a href="#a-voir" data-account-section="a-voir">À voir</a><a href="#visionnes" data-account-section="visionnes">Déjà vu</a><a href="#en-cours" data-account-section="en-cours">En cours</a><a href="#favoris" data-account-section="favoris">Favoris</a><a href="#temps" data-account-section="temps">Temps</a><a href="#parametres" data-account-section="parametres">Réglages</a></nav>
+    <div class="profile-dashboard-grid">
+      <section class="profile-main-feed" aria-labelledby="account-page-subtitle"><h2 id="account-page-subtitle"></h2><p id="account-page-description" class="profile-lead"></p><div id="profile-feed"></div></section>
+      <aside class="profile-aside" aria-label="Votre activité récente">
+        <section class="profile-side-panel"><h2>Cette semaine</h2><p id="profile-week-summary">0min sur le site</p><div id="profile-week-chart" class="profile-week-chart" aria-label="Temps passé sur le site pendant les sept derniers jours"></div><a class="secondary" href="#temps">Voir mon activité ↗</a></section>
+        <nav class="profile-side-panel profile-quick-links" aria-label="Accès rapides"><a href="#en-cours">Reprendre une histoire <span aria-hidden="true">↗</span></a><a href="#favoris">Mes favoris <span aria-hidden="true">↗</span></a><a href="#visionnes">Mon historique <span aria-hidden="true">↗</span></a><a href="#parametres">Réglages du profil <span aria-hidden="true">↗</span></a></nav>
+        <p class="profile-storage-note" id="profile-storage-note">Connectez-vous pour synchroniser vos listes et votre activité, séparément pour chaque profil.</p>
+      </aside>
+    </div>
+  </main>
+  <dialog class="avatar-dialog" id="avatar-dialog" aria-labelledby="avatar-dialog-title" aria-describedby="avatar-dialog-description">
+    <header class="avatar-dialog-header"><div><p class="avatar-dialog-eyebrow">VOTRE PROFIL, VOTRE UNIVERS</p><h2 id="avatar-dialog-title">Sélectionner un avatar</h2><p id="avatar-dialog-description">Retrouvez vos personnages préférés.</p></div><button class="avatar-dialog-close" id="close-avatar-dialog" type="button" aria-label="Fermer la sélection d’avatar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></header>
+    <div class="avatar-category-tabs" id="avatar-category-tabs" role="tablist" aria-label="Catégories d’avatars"></div>
+    <div class="avatar-gallery" id="avatar-gallery" role="tabpanel" tabindex="0"></div>
+    <footer class="avatar-dialog-footer"><span id="avatar-category-count"></span><p id="avatar-save-status" role="status">Cliquez sur un avatar pour le choisir.</p></footer>
+  </dialog>
+</body>
+</html>

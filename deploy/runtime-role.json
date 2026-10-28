@@ -1,0 +1,9 @@
+{
+  "title": "Movix runtime authentication",
+  "description": "Read Firebase users and create admin session cookies; no modification of users or claims.",
+  "stage": "GA",
+  "includedPermissions": [
+    "firebaseauth.users.get",
+    "firebaseauth.users.createSession"
+  ]
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion — Hessflix</title>
+  <link rel="icon" type="image/svg+xml" href="assets/hessflix-mark.svg">
+  <link rel="stylesheet" href="platform-page.css">
+  <link rel="stylesheet" href="ambient.css">
+  <link rel="stylesheet" href="account.css">
+  <link rel="stylesheet" href="account-pages.css">
+  <script src="ambient.js" defer></script>
+  <link rel="stylesheet" href="profile-picker.css">
+  <link rel="stylesheet" href="liquid-ui.css">
+  <script src="personal-model.js" defer></script>
+  <script src="personal-sync.js" defer></script>
+  <script src="profile-activity.js" defer></script>
+  <script src="profiles.js" defer></script>
+  <script src="catalogue-model.js"></script><script src="auth-session.js" defer></script><script src="account-login.js" defer></script><script src="account-page.js" defer></script><script src="account.js" defer></script>
+  <script src="firebase-auth.js" defer></script>
+</head>
+<body>
+  <header class="account-page-header">
+    <a class="account-page-brand" href="index.html" aria-label="Hessflix, accueil"><img src="assets/hessflix-mark.svg" alt=""><span class="brand-name">hess<span>flix</span></span></a>
+    <a class="account-page-back" id="login-back" href="index.html">← Retour au site</a>
+  </header>
+  <main class="auth-shell">
+    <section class="auth-intro" aria-labelledby="auth-title">
+      <p class="eyebrow">VOTRE ESPACE HESSFLIX</p>
+      <h1 id="auth-title">Vos histoires.<br>Votre <em>univers.</em></h1>
+      <p>Un profil pour retrouver vos favoris, préparer votre prochaine séance et garder une trace de vos découvertes.</p>
+      <div class="auth-orbit" aria-hidden="true"><span><img src="assets/hessflix-mark.svg" alt=""></span></div>
+    </section>
+    <section class="auth-card" aria-labelledby="login-title">
+      <h2 id="login-title">Ravi de vous revoir.</h2>
+      <p class="auth-subtitle">Connectez-vous pour retrouver votre espace personnel.</p>
+      <div class="auth-modes" role="group" aria-label="Connexion ou création de compte"><button type="button" data-auth-mode="login" aria-pressed="true">Connexion</button><button type="button" data-auth-mode="signup" aria-pressed="false">Créer un compte</button></div>
+      <button class="auth-google" id="google-signin" type="button" disabled><span class="google-g" aria-hidden="true">G</span>Continuer avec Google</button>
+      <div class="auth-divider">ou avec votre e-mail</div>
+      <form id="login-form" method="post">
+        <label class="auth-field" for="signup-name" data-signup-only hidden><span>Nom du profil</span><input id="signup-name" name="displayName" type="text" autocomplete="nickname" placeholder="Votre prénom ou pseudo" maxlength="60" disabled></label>
+        <label class="auth-field" for="login-email"><span>Adresse e-mail</span><input id="login-email" name="email" type="email" placeholder="vous@exemple.fr" autocomplete="username" required></label>
+        <label class="auth-field" for="login-password"><span>Mot de passe</span></label>
+        <div class="password-field"><input id="login-password" name="password" type="password" autocomplete="current-password" required aria-label="Mot de passe"><button type="button" id="toggle-password" aria-controls="login-password" aria-pressed="false">Afficher</button></div>
+        <label class="auth-field" for="signup-confirm" data-signup-only hidden><span>Confirmer le mot de passe</span><input id="signup-confirm" type="password" autocomplete="new-password" disabled></label>
+        <button type="button" class="auth-reset" id="reset-password" disabled>Mot de passe oublié ?</button>
+        <button class="auth-submit" type="submit" disabled>Se connecter</button>
+      </form>
+      <p class="auth-message" id="login-message" role="status" hidden></p>
+      <p class="auth-service-note">Connexion sécurisée avec Firebase Authentication.</p>
+    </section>
+  </main>
+</body>
+</html>

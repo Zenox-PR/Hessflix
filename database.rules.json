@@ -1,0 +1,26 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "admin": {
+      ".read": "auth != null && auth.uid === 'example-admin-uid' && auth.token.admin === true",
+      ".write": "auth != null && auth.uid === 'example-admin-uid' && auth.token.admin === true"
+    },
+    "profiles": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": "auth != null && auth.uid === $uid",
+        ".validate": "newData.hasChildren(['displayName'])",
+        "displayName": {
+          ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 60"
+        },
+        "photoURL": {
+          ".validate": "newData.isString() && newData.val().length <= 2048 && (newData.val() === '' || newData.val().matches(/^https:\\/\\/[A-Za-z0-9][A-Za-z0-9.-]*([\\/?#][A-Za-z0-9._~:\\/?#@!$&()*+,;=%-]*)?$/))"
+        },
+        "$other": {
+          ".validate": false
+        }
+      }
+    }
+  }
+}

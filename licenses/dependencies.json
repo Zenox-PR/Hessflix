@@ -1,0 +1,5929 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-28",
+  "method": "Installed package manifests and root license files; pnpm licenses command failed on missing cache index.",
+  "scope": "Installed packages only; not a complete legal review of embedded components or optional platform packages.",
+  "packages": [
+    {
+      "name": "@apidevtools/json-schema-ref-parser",
+      "version": "9.1.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/APIDevTools/json-schema-ref-parser.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@colors/colors",
+      "version": "1.5.0",
+      "declaredLicense": "MIT",
+      "repository": "http://github.com/DABH/colors.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@colors/colors",
+      "version": "1.6.0",
+      "declaredLicense": "MIT",
+      "repository": "http://github.com/DABH/colors.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@colors/colors",
+      "version": "1.6.1",
+      "declaredLicense": "MIT",
+      "repository": "http://github.com/DABH/colors.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@dabh/diagnostics",
+      "version": "2.0.9",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/DABH/diagnostics.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@electric-sql/pglite",
+      "version": "0.2.17",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/electric-sql/pglite",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@electric-sql/pglite",
+      "version": "0.3.16",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/electric-sql/pglite",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@electric-sql/pglite-tools",
+      "version": "0.2.21",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/electric-sql/pglite",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@fastify/busboy",
+      "version": "3.2.3",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/fastify/busboy.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@firebase/ai",
+      "version": "3.0.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/analytics",
+      "version": "0.10.25",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/analytics-compat",
+      "version": "0.2.31",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/analytics-types",
+      "version": "0.8.5",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/app",
+      "version": "0.16.4",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/app-check",
+      "version": "0.13.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/app-check-compat",
+      "version": "0.4.7",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/app-check-interop-types",
+      "version": "0.3.5",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/app-check-types",
+      "version": "0.5.5",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/app-compat",
+      "version": "0.5.20",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/app-types",
+      "version": "0.9.6",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/auth",
+      "version": "1.13.8",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/auth-compat",
+      "version": "0.6.13",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/auth-interop-types",
+      "version": "0.2.6",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/auth-types",
+      "version": "0.13.2",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/component",
+      "version": "0.7.5",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/data-connect",
+      "version": "0.7.4",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/database",
+      "version": "1.1.5",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/database-compat",
+      "version": "2.1.7",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/database-types",
+      "version": "1.0.22",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/firestore",
+      "version": "4.19.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/firestore-compat",
+      "version": "0.4.16",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/firestore-types",
+      "version": "3.0.5",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/functions",
+      "version": "0.14.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/functions-compat",
+      "version": "0.5.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/functions-types",
+      "version": "0.6.5",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/installations",
+      "version": "0.6.24",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/installations-compat",
+      "version": "0.2.24",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/installations-types",
+      "version": "0.5.5",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/logger",
+      "version": "0.5.2",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/messaging",
+      "version": "0.13.3",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/messaging-compat",
+      "version": "0.2.30",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/messaging-interop-types",
+      "version": "0.2.6",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/performance",
+      "version": "0.7.14",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/performance-compat",
+      "version": "0.2.27",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/performance-types",
+      "version": "0.2.5",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/remote-config",
+      "version": "0.9.3",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/remote-config-compat",
+      "version": "0.2.30",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/remote-config-types",
+      "version": "0.5.2",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/rules-unit-testing",
+      "version": "6.0.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/storage",
+      "version": "0.14.6",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/storage-compat",
+      "version": "0.4.6",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/storage-types",
+      "version": "0.8.5",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/util",
+      "version": "1.15.3",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@firebase/webchannel-wrapper",
+      "version": "1.0.7",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@google-cloud/cloud-sql-connector",
+      "version": "1.12.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/GoogleCloudPlatform/cloud-sql-nodejs-connector",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@google-cloud/firestore",
+      "version": "9.3.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@google-cloud/firestore-api",
+      "version": "0.2.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@google-cloud/paginator",
+      "version": "6.1.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@google-cloud/paginator",
+      "version": "7.2.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@google-cloud/precise-date",
+      "version": "5.2.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@google-cloud/projectify",
+      "version": "5.2.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@google-cloud/projectify",
+      "version": "6.2.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@google-cloud/promisify",
+      "version": "5.1.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@google-cloud/promisify",
+      "version": "6.2.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@google-cloud/pubsub",
+      "version": "5.3.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@google-cloud/sql",
+      "version": "0.25.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@google-cloud/storage",
+      "version": "8.4.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@googleapis/sqladmin",
+      "version": "38.1.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-api-nodejs-client.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@grpc/grpc-js",
+      "version": "1.14.6",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/grpc/grpc-node/tree/master/packages/grpc-js",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@grpc/proto-loader",
+      "version": "0.7.15",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/grpc/grpc-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@grpc/proto-loader",
+      "version": "0.8.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/grpc/grpc-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@hono/node-server",
+      "version": "2.1.5",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/honojs/node-server.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/ansi",
+      "version": "1.0.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/checkbox",
+      "version": "4.3.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/confirm",
+      "version": "5.1.21",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/core",
+      "version": "10.3.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/editor",
+      "version": "4.2.23",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/expand",
+      "version": "4.0.23",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/external-editor",
+      "version": "1.0.3",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/figures",
+      "version": "1.0.15",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/input",
+      "version": "4.3.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/number",
+      "version": "3.0.23",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/password",
+      "version": "4.0.23",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/prompts",
+      "version": "7.10.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/rawlist",
+      "version": "4.1.11",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/search",
+      "version": "3.2.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/select",
+      "version": "4.4.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@inquirer/type",
+      "version": "3.0.10",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/SBoudrias/Inquirer.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@isaacs/cliui",
+      "version": "8.0.2",
+      "declaredLicense": "ISC",
+      "repository": "yargs/cliui",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@isaacs/fs-minipass",
+      "version": "4.0.1",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/npm/fs-minipass.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@js-sdsl/ordered-map",
+      "version": "4.4.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/js-sdsl/js-sdsl.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@jsdevtools/ono",
+      "version": "7.1.3",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/JS-DevTools/ono.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@modelcontextprotocol/sdk",
+      "version": "1.32.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/modelcontextprotocol/typescript-sdk.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@nodable/entities",
+      "version": "3.1.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/nodable/val-parsers.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@opentelemetry/api",
+      "version": "1.10.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "open-telemetry/opentelemetry-js",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@opentelemetry/api",
+      "version": "1.9.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "open-telemetry/opentelemetry-js",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@opentelemetry/core",
+      "version": "1.30.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "open-telemetry/opentelemetry-js",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@opentelemetry/semantic-conventions",
+      "version": "1.28.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "open-telemetry/opentelemetry-js",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@opentelemetry/semantic-conventions",
+      "version": "1.39.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "open-telemetry/opentelemetry-js",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@pkgjs/parseargs",
+      "version": "0.11.0",
+      "declaredLicense": "MIT",
+      "repository": "git@github.com:pkgjs/parseargs.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@playwright/test",
+      "version": "1.64.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/microsoft/playwright.git",
+      "rootLicenseFiles": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "preservedNotices": [
+        "licenses/dependencies/_playwright_test-1.64.1-LICENSE.txt",
+        "licenses/dependencies/_playwright_test-1.64.1-NOTICE.txt"
+      ]
+    },
+    {
+      "name": "@pnpm/config.env-replace",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/pnpm/components",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@pnpm/network.ca-file",
+      "version": "1.0.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/pnpm/components",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "@pnpm/npm-conf",
+      "version": "3.0.3",
+      "declaredLicense": "MIT",
+      "repository": "pnpm/npm-conf",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "@protobufjs/aspromise",
+      "version": "1.1.2",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/base64",
+      "version": "1.1.2",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/codegen",
+      "version": "2.0.5",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/eventemitter",
+      "version": "1.1.1",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/fetch",
+      "version": "1.1.1",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/float",
+      "version": "1.0.2",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/path",
+      "version": "1.1.2",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/pool",
+      "version": "1.1.0",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "https://github.com/dcodeIO/protobuf.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@protobufjs/utf8",
+      "version": "1.1.2",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "https://github.com/protobufjs/protobuf.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@sindresorhus/is",
+      "version": "4.6.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/is",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "@so-ric/colorspace",
+      "version": "1.1.6",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/so-ric/colorspace",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "@types/json-schema",
+      "version": "7.0.15",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@types/jsonwebtoken",
+      "version": "9.0.10",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@types/ms",
+      "version": "2.1.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@types/node",
+      "version": "22.20.5",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ],
+      "preservedNotices": [
+        "licenses/dependencies/_types_node-22.20.5-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@types/node",
+      "version": "26.6.5",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ],
+      "preservedNotices": [
+        "licenses/dependencies/_types_node-26.6.5-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@types/triple-beam",
+      "version": "1.3.5",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@typescript/typescript-win32-x64",
+      "version": "7.0.2",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/microsoft/TypeScript.git",
+      "rootLicenseFiles": [
+        "LICENSE",
+        "NOTICE.txt"
+      ]
+    },
+    {
+      "name": "abbrev",
+      "version": "5.0.0",
+      "declaredLicense": "ISC",
+      "repository": "git+https://github.com/npm/abbrev-js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "abort-controller",
+      "version": "3.0.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/mysticatea/abort-controller.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "accepts",
+      "version": "1.3.8",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/accepts",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "accepts",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/accepts",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "agent-base",
+      "version": "7.1.4",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/TooTallNate/proxy-agents.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ajv",
+      "version": "8.20.0",
+      "declaredLicense": "MIT",
+      "repository": "ajv-validator/ajv",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ajv-formats",
+      "version": "2.1.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ajv-validator/ajv-formats.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ajv-formats",
+      "version": "3.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ajv-validator/ajv-formats.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ansi-align",
+      "version": "3.0.1",
+      "declaredLicense": "ISC",
+      "repository": "git+https://github.com/nexdrew/ansi-align.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ansi-escapes",
+      "version": "7.3.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/ansi-escapes",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "ansi-regex",
+      "version": "5.0.1",
+      "declaredLicense": "MIT",
+      "repository": "chalk/ansi-regex",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "ansi-regex",
+      "version": "6.4.0",
+      "declaredLicense": "MIT",
+      "repository": "chalk/ansi-regex",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "ansi-styles",
+      "version": "4.3.0",
+      "declaredLicense": "MIT",
+      "repository": "chalk/ansi-styles",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "ansi-styles",
+      "version": "6.2.3",
+      "declaredLicense": "MIT",
+      "repository": "chalk/ansi-styles",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "any-promise",
+      "version": "1.3.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/kevinbeaty/any-promise",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "anymatch",
+      "version": "3.1.3",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/micromatch/anymatch",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "anynum",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/NaturalIntelligence/anynum",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "archiver",
+      "version": "7.0.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/archiverjs/node-archiver.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "archiver-utils",
+      "version": "5.0.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/archiverjs/archiver-utils.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "argparse",
+      "version": "2.0.1",
+      "declaredLicense": "Python-2.0",
+      "repository": "nodeca/argparse",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ],
+      "preservedNotices": [
+        "licenses/dependencies/argparse-2.0.1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "array-flatten",
+      "version": "1.1.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/blakeembrey/array-flatten.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "arrify",
+      "version": "2.0.1",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/arrify",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "as-array",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/scottcorgan/as-array.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "async",
+      "version": "3.2.6",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/caolan/async.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "async-lock",
+      "version": "1.4.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/rogierschouten/async-lock.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "async-retry",
+      "version": "1.3.3",
+      "declaredLicense": "MIT",
+      "repository": "vercel/async-retry",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "asynckit",
+      "version": "0.4.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/alexindigo/asynckit.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "b4a",
+      "version": "1.9.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/holepunchto/b4a.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "balanced-match",
+      "version": "1.0.2",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/juliangruber/balanced-match.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "bare-events",
+      "version": "2.9.2",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/holepunchto/bare-events.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "bare-fs",
+      "version": "4.8.4",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/holepunchto/bare-fs.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "bare-path",
+      "version": "3.1.2",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/holepunchto/bare-path.git",
+      "rootLicenseFiles": [
+        "LICENSE",
+        "NOTICE"
+      ]
+    },
+    {
+      "name": "bare-stream",
+      "version": "2.13.4",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/holepunchto/bare-stream.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "bare-url",
+      "version": "2.5.5",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/holepunchto/bare-url.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "base64-js",
+      "version": "1.5.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/beatgammit/base64-js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "basic-auth",
+      "version": "2.0.1",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/basic-auth",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "basic-auth-connect",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/expressjs/basic-auth-connect.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "bignumber.js",
+      "version": "9.3.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/MikeMcl/bignumber.js.git",
+      "rootLicenseFiles": [
+        "LICENCE.md"
+      ]
+    },
+    {
+      "name": "binary-extensions",
+      "version": "2.3.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/binary-extensions",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "bl",
+      "version": "4.1.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/rvagg/bl.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "body-parser",
+      "version": "1.20.9",
+      "declaredLicense": "MIT",
+      "repository": "expressjs/body-parser",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "body-parser",
+      "version": "2.4.0",
+      "declaredLicense": "MIT",
+      "repository": "expressjs/body-parser",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "boxen",
+      "version": "5.1.2",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/boxen",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "brace-expansion",
+      "version": "1.1.21",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/juliangruber/brace-expansion.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "brace-expansion",
+      "version": "2.1.7",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/juliangruber/brace-expansion.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "braces",
+      "version": "3.0.3",
+      "declaredLicense": "MIT",
+      "repository": "micromatch/braces",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "buffer",
+      "version": "5.7.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/feross/buffer.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "buffer",
+      "version": "6.0.3",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/feross/buffer.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "buffer-crc32",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/brianloveswords/buffer-crc32.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "buffer-equal-constant-time",
+      "version": "1.0.1",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "git@github.com:goinstant/buffer-equal-constant-time.git",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "bytes",
+      "version": "3.1.2",
+      "declaredLicense": "MIT",
+      "repository": "visionmedia/bytes.js",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ljharb/call-bind-apply-helpers.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "call-bound",
+      "version": "1.0.4",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ljharb/call-bound.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "call-me-maybe",
+      "version": "1.0.2",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/limulus/call-me-maybe.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "camelcase",
+      "version": "6.3.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/camelcase",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "chalk",
+      "version": "4.1.2",
+      "declaredLicense": "MIT",
+      "repository": "chalk/chalk",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "chalk",
+      "version": "5.6.2",
+      "declaredLicense": "MIT",
+      "repository": "chalk/chalk",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "char-regex",
+      "version": "1.0.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/Richienb/char-regex.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "chardet",
+      "version": "2.2.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/runk/node-chardet.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "chokidar",
+      "version": "3.6.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/paulmillr/chokidar.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "chownr",
+      "version": "3.0.0",
+      "declaredLicense": "BlueOak-1.0.0",
+      "repository": "git://github.com/isaacs/chownr.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "ci-info",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/watson/ci-info.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "cjson",
+      "version": "0.3.3",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/kof/node-cjson.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "cli-boxes",
+      "version": "2.2.1",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/cli-boxes",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "cli-cursor",
+      "version": "3.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/cli-cursor",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "cli-highlight",
+      "version": "2.1.11",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/felixfbecker/cli-highlight.git",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "cli-spinners",
+      "version": "2.9.2",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/cli-spinners",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "cli-table3",
+      "version": "0.6.5",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/cli-table/cli-table3.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "cli-width",
+      "version": "4.1.0",
+      "declaredLicense": "ISC",
+      "repository": "git@github.com:knownasilya/cli-width.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "cliui",
+      "version": "7.0.4",
+      "declaredLicense": "ISC",
+      "repository": "yargs/cliui",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "cliui",
+      "version": "8.0.1",
+      "declaredLicense": "ISC",
+      "repository": "yargs/cliui",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "clone",
+      "version": "1.0.4",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/pvorb/node-clone.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "color",
+      "version": "5.0.3",
+      "declaredLicense": "MIT",
+      "repository": "Qix-/color",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "color-convert",
+      "version": "2.0.1",
+      "declaredLicense": "MIT",
+      "repository": "Qix-/color-convert",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "color-convert",
+      "version": "3.1.3",
+      "declaredLicense": "MIT",
+      "repository": "Qix-/color-convert",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "color-name",
+      "version": "1.1.4",
+      "declaredLicense": "MIT",
+      "repository": "git@github.com:colorjs/color-name.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "color-name",
+      "version": "2.1.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/colorjs/color-name.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "color-string",
+      "version": "2.1.4",
+      "declaredLicense": "MIT",
+      "repository": "Qix-/color-string",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "colorette",
+      "version": "2.0.20",
+      "declaredLicense": "MIT",
+      "repository": "jorgebucaran/colorette",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "combined-stream",
+      "version": "1.0.8",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/felixge/node-combined-stream.git",
+      "rootLicenseFiles": [
+        "License"
+      ]
+    },
+    {
+      "name": "commander",
+      "version": "10.0.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/tj/commander.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "commander",
+      "version": "2.20.3",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/tj/commander.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "commander",
+      "version": "5.1.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/tj/commander.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "compress-commons",
+      "version": "6.0.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/archiverjs/node-compress-commons.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "compressible",
+      "version": "2.0.18",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/compressible",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "compression",
+      "version": "1.8.2",
+      "declaredLicense": "MIT",
+      "repository": "expressjs/compression",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "concat-map",
+      "version": "0.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/substack/node-concat-map.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "config-chain",
+      "version": "1.1.13",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/dominictarr/config-chain.git",
+      "rootLicenseFiles": [
+        "LICENCE"
+      ]
+    },
+    {
+      "name": "configstore",
+      "version": "5.0.1",
+      "declaredLicense": "BSD-2-Clause",
+      "repository": "yeoman/configstore",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "connect",
+      "version": "3.7.0",
+      "declaredLicense": "MIT",
+      "repository": "senchalabs/connect",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "content-disposition",
+      "version": "0.5.4",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/content-disposition",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "content-disposition",
+      "version": "2.0.1",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/content-disposition",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "content-type",
+      "version": "1.0.5",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/content-type",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "content-type",
+      "version": "2.1.0",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/content-type",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "cookie",
+      "version": "0.7.2",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/cookie",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "cookie-signature",
+      "version": "1.0.7",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/visionmedia/node-cookie-signature.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "cookie-signature",
+      "version": "1.2.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/visionmedia/node-cookie-signature.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "core-util-is",
+      "version": "1.0.3",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/isaacs/core-util-is",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "cors",
+      "version": "2.8.6",
+      "declaredLicense": "MIT",
+      "repository": "expressjs/cors",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "crc-32",
+      "version": "1.2.2",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git://github.com/SheetJS/js-crc32.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "crc32-stream",
+      "version": "6.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/archiverjs/node-crc32-stream.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "cross-env",
+      "version": "7.0.3",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/kentcdodds/cross-env.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "cross-spawn",
+      "version": "7.0.6",
+      "declaredLicense": "MIT",
+      "repository": "git@github.com:moxystudio/node-cross-spawn.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "crypto-random-string",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/crypto-random-string",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "csv-parse",
+      "version": "7.0.3",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/adaltas/node-csv.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "data-uri-to-buffer",
+      "version": "4.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/TooTallNate/node-data-uri-to-buffer.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "debug",
+      "version": "2.6.9",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/visionmedia/debug.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "debug",
+      "version": "4.3.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/visionmedia/debug.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/debug-js/debug.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "deep-extend",
+      "version": "0.6.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/unclechu/node-deep-extend.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "deep-freeze",
+      "version": "0.0.1",
+      "declaredLicense": "public domain",
+      "repository": "git://github.com/substack/deep-freeze.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ],
+      "preservedNotices": [
+        "licenses/dependencies/deep-freeze-0.0.1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "deep-is",
+      "version": "0.1.4",
+      "declaredLicense": "MIT",
+      "repository": "http://github.com/thlorenz/deep-is.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "defaults",
+      "version": "1.0.4",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/sindresorhus/node-defaults.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "delayed-stream",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/felixge/node-delayed-stream.git",
+      "rootLicenseFiles": [
+        "License"
+      ]
+    },
+    {
+      "name": "depd",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "dougwilson/nodejs-depd",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "destroy",
+      "version": "1.2.0",
+      "declaredLicense": "MIT",
+      "repository": "stream-utils/destroy",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "discontinuous-range",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/dtudury/discontinuous-range.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "dot-prop",
+      "version": "5.3.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/dot-prop",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "dunder-proto",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/es-shims/dunder-proto.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "duplexify",
+      "version": "4.1.3",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/mafintosh/duplexify",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "eastasianwidth",
+      "version": "0.2.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/komagata/eastasianwidth.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "ecdsa-sig-formatter",
+      "version": "1.0.11",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+ssh://git@github.com/Brightspace/node-ecdsa-sig-formatter.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ee-first",
+      "version": "1.1.1",
+      "declaredLicense": "MIT",
+      "repository": "jonathanong/ee-first",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "emoji-regex",
+      "version": "8.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/mathiasbynens/emoji-regex.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "emoji-regex",
+      "version": "9.2.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/mathiasbynens/emoji-regex.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "emojilib",
+      "version": "2.4.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/muan/emojilib.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "enabled",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/3rd-Eden/enabled.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "encodeurl",
+      "version": "1.0.2",
+      "declaredLicense": "MIT",
+      "repository": "pillarjs/encodeurl",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "encodeurl",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "pillarjs/encodeurl",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "end-of-stream",
+      "version": "1.4.5",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/mafintosh/end-of-stream.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "env-paths",
+      "version": "2.2.1",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/env-paths",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "environment",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/environment",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "es-define-property",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ljharb/es-define-property.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "es-errors",
+      "version": "1.3.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ljharb/es-errors.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "es-object-atoms",
+      "version": "1.1.2",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ljharb/es-object-atoms.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "es-set-tostringtag",
+      "version": "2.1.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/es-shims/es-set-tostringtag.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "escalade",
+      "version": "3.2.0",
+      "declaredLicense": "MIT",
+      "repository": "lukeed/escalade",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "escape-goat",
+      "version": "2.1.1",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/escape-goat",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "escape-html",
+      "version": "1.0.3",
+      "declaredLicense": "MIT",
+      "repository": "component/escape-html",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "etag",
+      "version": "1.8.1",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/etag",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "event-target-shim",
+      "version": "5.0.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/mysticatea/event-target-shim.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "events",
+      "version": "3.3.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/Gozala/events.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "events-listener",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/jwalton/node-events-listener.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "events-universal",
+      "version": "1.0.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/holepunchto/events-universal.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "eventsource",
+      "version": "3.0.7",
+      "declaredLicense": "MIT",
+      "repository": "git://git@github.com/EventSource/eventsource.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "eventsource-parser",
+      "version": "3.1.1",
+      "declaredLicense": "MIT",
+      "repository": "git+ssh://git@github.com/rexxars/eventsource-parser.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "exegesis",
+      "version": "4.3.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/exegesis-js/exegesis.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "exegesis-express",
+      "version": "4.0.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/exegesis-js/exegesis-express.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "exponential-backoff",
+      "version": "3.1.3",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/coveooss/exponential-backoff.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "express",
+      "version": "4.22.3",
+      "declaredLicense": "MIT",
+      "repository": "expressjs/express",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "express",
+      "version": "5.3.0",
+      "declaredLicense": "MIT",
+      "repository": "expressjs/express",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "express-rate-limit",
+      "version": "8.7.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/express-rate-limit/express-rate-limit.git",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "extend",
+      "version": "3.0.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/justmoon/node-extend.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/epoberezkin/fast-deep-equal.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fast-fifo",
+      "version": "1.3.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/mafintosh/fast-fifo.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fast-uri",
+      "version": "3.1.9",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "git+https://github.com/fastify/fast-uri.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fast-xml-builder",
+      "version": "1.3.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/NaturalIntelligence/fast-xml-builder.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fast-xml-parser",
+      "version": "5.11.2",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/NaturalIntelligence/fast-xml-parser.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "faye-websocket",
+      "version": "0.11.4",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git://github.com/faye/faye-websocket-node.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "fdir",
+      "version": "6.5.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/thecodrr/fdir.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fecha",
+      "version": "4.2.3",
+      "declaredLicense": "MIT",
+      "repository": "https://taylorhakes@github.com/taylorhakes/fecha.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fetch-blob",
+      "version": "3.2.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/node-fetch/fetch-blob.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fill-range",
+      "version": "7.1.1",
+      "declaredLicense": "MIT",
+      "repository": "jonschlinkert/fill-range",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "finalhandler",
+      "version": "1.1.2",
+      "declaredLicense": "MIT",
+      "repository": "pillarjs/finalhandler",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "finalhandler",
+      "version": "1.3.2",
+      "declaredLicense": "MIT",
+      "repository": "pillarjs/finalhandler",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "finalhandler",
+      "version": "2.1.1",
+      "declaredLicense": "MIT",
+      "repository": "pillarjs/finalhandler",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "firebase",
+      "version": "13.1.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/firebase/firebase-js-sdk.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "firebase-admin",
+      "version": "14.5.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/firebase/firebase-admin-node",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ],
+      "preservedNotices": [
+        "licenses/dependencies/firebase-admin-14.5.0-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "firebase-tools",
+      "version": "15.34.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/firebase/firebase-tools.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ],
+      "preservedNotices": [
+        "licenses/dependencies/firebase-tools-15.34.1-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "fn.name",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/3rd-Eden/fn.name",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "foreground-child",
+      "version": "3.3.1",
+      "declaredLicense": "ISC",
+      "repository": "git+https://github.com/tapjs/foreground-child.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "form-data",
+      "version": "4.0.6",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/form-data/form-data.git",
+      "rootLicenseFiles": [
+        "License"
+      ]
+    },
+    {
+      "name": "formdata-polyfill",
+      "version": "4.0.10",
+      "declaredLicense": "MIT",
+      "repository": "git+https://jimmywarting@github.com/jimmywarting/FormData.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "forwarded",
+      "version": "0.2.0",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/forwarded",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fresh",
+      "version": "0.5.2",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/fresh",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fresh",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/fresh",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fs-extra",
+      "version": "10.1.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/jprichardson/node-fs-extra",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "function-bind",
+      "version": "1.1.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/Raynos/function-bind.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "functional-red-black-tree",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/mikolalysenko/functional-red-black-tree.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "fuzzy",
+      "version": "0.1.3",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/mattyork/fuzzy.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "gaxios",
+      "version": "6.7.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "googleapis/gaxios",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "gaxios",
+      "version": "7.1.3",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node-core.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "gaxios",
+      "version": "7.3.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "gaxios",
+      "version": "8.3.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "gcp-metadata",
+      "version": "6.1.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "googleapis/gcp-metadata",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "gcp-metadata",
+      "version": "8.1.2",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node-core.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "gcp-metadata",
+      "version": "8.1.4",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "gcp-metadata",
+      "version": "9.2.2",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "get-caller-file",
+      "version": "2.0.5",
+      "declaredLicense": "ISC",
+      "repository": "git+https://github.com/stefanpenner/get-caller-file.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "get-intrinsic",
+      "version": "1.3.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ljharb/get-intrinsic.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "get-proto",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ljharb/get-proto.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "glob",
+      "version": "10.5.0",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/isaacs/node-glob.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "glob-parent",
+      "version": "5.1.2",
+      "declaredLicense": "ISC",
+      "repository": "gulpjs/glob-parent",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "glob-slash",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/scottcorgan/glob-slash.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "glob-slasher",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/scottcorgan/glob-slasher.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "global-dirs",
+      "version": "3.0.1",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/global-dirs",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "google-auth-library",
+      "version": "10.5.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "googleapis/google-auth-library-nodejs.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "google-auth-library",
+      "version": "10.9.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "google-auth-library",
+      "version": "11.3.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "google-auth-library",
+      "version": "9.15.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "googleapis/google-auth-library-nodejs.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "google-gax",
+      "version": "5.0.8",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "google-gax",
+      "version": "6.13.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "google-logging-utils",
+      "version": "0.0.2",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/gax-nodejs.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "google-logging-utils",
+      "version": "1.1.3",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node-core.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "google-logging-utils",
+      "version": "1.2.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "google-logging-utils",
+      "version": "2.1.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "googleapis-common",
+      "version": "9.3.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "gopd",
+      "version": "1.2.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ljharb/gopd.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "graceful-fs",
+      "version": "4.2.10",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/isaacs/node-graceful-fs",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "graceful-fs",
+      "version": "4.2.11",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/isaacs/node-graceful-fs",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "gtoken",
+      "version": "7.1.0",
+      "declaredLicense": "MIT",
+      "repository": "google/node-gtoken",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "gtoken",
+      "version": "8.0.0",
+      "declaredLicense": "MIT",
+      "repository": "google/node-gtoken",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "has-flag",
+      "version": "4.0.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/has-flag",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "has-symbols",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/inspect-js/has-symbols.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "has-tostringtag",
+      "version": "1.0.2",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/inspect-js/has-tostringtag.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "has-yarn",
+      "version": "2.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/has-yarn",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "hasown",
+      "version": "2.0.4",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/inspect-js/hasOwn.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "heap-js",
+      "version": "2.7.1",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "git+ssh://git@github.com/ignlg/heap-js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "highlight.js",
+      "version": "10.7.3",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "git://github.com/highlightjs/highlight.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "hono",
+      "version": "4.13.13",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/honojs/hono.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "html-entities",
+      "version": "2.6.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/mdevils/html-entities.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "http-errors",
+      "version": "2.0.1",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/http-errors",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "http-parser-js",
+      "version": "0.5.10",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/creationix/http-parser-js.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "http-proxy-agent",
+      "version": "7.0.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/TooTallNate/proxy-agents.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "https-proxy-agent",
+      "version": "7.0.6",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/TooTallNate/proxy-agents.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "iconv-lite",
+      "version": "0.4.24",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/ashtuchkin/iconv-lite.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "iconv-lite",
+      "version": "0.7.3",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/pillarjs/iconv-lite.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "idb",
+      "version": "7.1.1",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/jakearchibald/idb.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ieee754",
+      "version": "1.2.1",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "git://github.com/feross/ieee754.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ignore",
+      "version": "7.0.13",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/kaelzhang/node-ignore.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "import-lazy",
+      "version": "2.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/import-lazy",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "imurmurhash",
+      "version": "0.1.4",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/jensyt/imurmurhash-js",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "inherits",
+      "version": "2.0.4",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/isaacs/inherits",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ini",
+      "version": "1.3.8",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/isaacs/ini.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ini",
+      "version": "2.0.0",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/isaacs/ini.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "install-artifact-from-github",
+      "version": "1.8.1",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "git+https://github.com/uhop/install-artifact-from-github.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ip-address",
+      "version": "10.7.4",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/beaugunderson/ip-address.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ip-regex",
+      "version": "2.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/ip-regex",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "ipaddr.js",
+      "version": "1.9.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/whitequark/ipaddr.js",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "is-binary-path",
+      "version": "2.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/is-binary-path",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "is-ci",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/watson/is-ci.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "is-extglob",
+      "version": "2.1.1",
+      "declaredLicense": "MIT",
+      "repository": "jonschlinkert/is-extglob",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "is-fullwidth-code-point",
+      "version": "3.0.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/is-fullwidth-code-point",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "is-glob",
+      "version": "4.0.3",
+      "declaredLicense": "MIT",
+      "repository": "micromatch/is-glob",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "is-installed-globally",
+      "version": "0.4.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/is-installed-globally",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "is-interactive",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/is-interactive",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "is-npm",
+      "version": "5.0.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/is-npm",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "is-number",
+      "version": "7.0.0",
+      "declaredLicense": "MIT",
+      "repository": "jonschlinkert/is-number",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "is-obj",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/is-obj",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "is-path-inside",
+      "version": "3.0.3",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/is-path-inside",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "is-promise",
+      "version": "4.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/then/is-promise.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "is-stream",
+      "version": "2.0.1",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/is-stream",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "is-stream-ended",
+      "version": "0.1.4",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/stephenplusplus/is-stream-ended.git",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "is-typedarray",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/hughsk/is-typedarray.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "is-unicode-supported",
+      "version": "0.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/is-unicode-supported",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "is-unsafe",
+      "version": "2.0.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/NaturalIntelligence/is-unsafe",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "is-url",
+      "version": "1.2.4",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/segmentio/is-url",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "is-wsl",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/is-wsl",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "is-yarn-global",
+      "version": "0.3.0",
+      "declaredLicense": "MIT",
+      "repository": "git@github.com:LitoMore/is-yarn-global.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "is2",
+      "version": "2.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git@github.com:stdarg/is2.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "isarray",
+      "version": "0.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/juliangruber/isarray.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "isarray",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/juliangruber/isarray.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "isexe",
+      "version": "2.0.0",
+      "declaredLicense": "ISC",
+      "repository": "git+https://github.com/isaacs/isexe.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "isexe",
+      "version": "4.0.0",
+      "declaredLicense": "BlueOak-1.0.0",
+      "repository": "https://github.com/isaacs/isexe",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "isomorphic-fetch",
+      "version": "3.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/matthew-andrews/isomorphic-fetch.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "jackspeak",
+      "version": "3.4.3",
+      "declaredLicense": "BlueOak-1.0.0",
+      "repository": "git+https://github.com/isaacs/jackspeak.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "jju",
+      "version": "1.4.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/rlidwka/jju",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "join-path",
+      "version": "1.1.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/scottcorgan/join-path.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "jose",
+      "version": "6.2.13",
+      "declaredLicense": "MIT",
+      "repository": "panva/jose",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "js-yaml",
+      "version": "4.3.2",
+      "declaredLicense": "MIT",
+      "repository": "nodeca/js-yaml",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "json-bigint",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "git@github.com:sidorares/json-bigint.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "json-parse-helpfulerror",
+      "version": "1.0.3",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/smikes/json-parse-helpfulerror.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "json-ptr",
+      "version": "3.1.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/flitbit/json-ptr",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "json-schema-traverse",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/epoberezkin/json-schema-traverse.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "json-schema-typed",
+      "version": "8.0.2",
+      "declaredLicense": "BSD-2-Clause",
+      "repository": "https://github.com/RemyRylan/json-schema-typed.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "jsonfile",
+      "version": "6.2.1",
+      "declaredLicense": "MIT",
+      "repository": "git@github.com:jprichardson/node-jsonfile.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "jsonwebtoken",
+      "version": "9.0.3",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/auth0/node-jsonwebtoken",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "jwa",
+      "version": "2.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/brianloveswords/node-jwa.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "jwks-rsa",
+      "version": "4.1.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/auth0/node-jwks-rsa.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "jws",
+      "version": "4.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/brianloveswords/node-jws.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "kuler",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/3rd-Eden/kuler",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lazystream",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/jpommerening/node-lazystream.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "libsodium",
+      "version": "0.7.16",
+      "declaredLicense": "ISC",
+      "repository": "git+https://github.com/jedisct1/libsodium.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "libsodium-wrappers",
+      "version": "0.7.16",
+      "declaredLicense": "ISC",
+      "repository": "git+https://github.com/jedisct1/libsodium.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "limiter",
+      "version": "1.1.5",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/jhurliman/node-rate-limiter",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "lodash",
+      "version": "4.18.1",
+      "declaredLicense": "MIT",
+      "repository": "lodash/lodash",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lodash._objecttypes",
+      "version": "2.4.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/lodash/lodash-cli.git",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "lodash.camelcase",
+      "version": "4.3.0",
+      "declaredLicense": "MIT",
+      "repository": "lodash/lodash",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.clonedeep",
+      "version": "4.5.0",
+      "declaredLicense": "MIT",
+      "repository": "lodash/lodash",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.includes",
+      "version": "4.3.0",
+      "declaredLicense": "MIT",
+      "repository": "lodash/lodash",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.isboolean",
+      "version": "3.0.3",
+      "declaredLicense": "MIT",
+      "repository": "lodash/lodash",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.isinteger",
+      "version": "4.0.4",
+      "declaredLicense": "MIT",
+      "repository": "lodash/lodash",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.isnumber",
+      "version": "3.0.3",
+      "declaredLicense": "MIT",
+      "repository": "lodash/lodash",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.isobject",
+      "version": "2.4.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/lodash/lodash-cli.git",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "lodash.isplainobject",
+      "version": "4.0.6",
+      "declaredLicense": "MIT",
+      "repository": "lodash/lodash",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.isstring",
+      "version": "4.0.1",
+      "declaredLicense": "MIT",
+      "repository": "lodash/lodash",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.once",
+      "version": "4.1.1",
+      "declaredLicense": "MIT",
+      "repository": "lodash/lodash",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lodash.snakecase",
+      "version": "4.1.1",
+      "declaredLicense": "MIT",
+      "repository": "lodash/lodash",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "log-symbols",
+      "version": "4.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/log-symbols",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "logform",
+      "version": "2.7.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/winstonjs/logform.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "long",
+      "version": "5.3.2",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/dcodeIO/long.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lru-cache",
+      "version": "10.4.3",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/isaacs/node-lru-cache.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lru-cache",
+      "version": "11.5.3",
+      "declaredLicense": "BlueOak-1.0.0",
+      "repository": "git+ssh://git@github.com/isaacs/node-lru-cache.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "lru-memoizer",
+      "version": "3.0.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/jfromaniello/lru-memoizer.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "lsofi",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "http://github.com/marionebl/lsofi.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "make-dir",
+      "version": "3.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/make-dir",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "marked",
+      "version": "13.0.3",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/markedjs/marked.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "marked-terminal",
+      "version": "7.3.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/mikaelbr/marked-terminal.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "math-intrinsics",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/es-shims/math-intrinsics.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "media-typer",
+      "version": "0.3.0",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/media-typer",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "media-typer",
+      "version": "1.1.1",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/media-typer",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "merge-descriptors",
+      "version": "1.0.3",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/merge-descriptors",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "merge-descriptors",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/merge-descriptors",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "methods",
+      "version": "1.1.2",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/methods",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "mime",
+      "version": "1.6.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/broofa/node-mime",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "mime",
+      "version": "2.6.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/broofa/mime",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "mime",
+      "version": "3.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/broofa/mime",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "mime-db",
+      "version": "1.52.0",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/mime-db",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "mime-db",
+      "version": "1.54.0",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/mime-db",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "mime-types",
+      "version": "2.1.35",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/mime-types",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "mime-types",
+      "version": "3.0.2",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/mime-types",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "mimic-fn",
+      "version": "2.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/mimic-fn",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "minimatch",
+      "version": "3.1.5",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/isaacs/minimatch.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "minimatch",
+      "version": "5.1.9",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/isaacs/minimatch.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "minimatch",
+      "version": "6.2.3",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/isaacs/minimatch.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "minimatch",
+      "version": "9.0.9",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/isaacs/minimatch.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "minimist",
+      "version": "1.2.8",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/minimistjs/minimist.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "minipass",
+      "version": "7.1.3",
+      "declaredLicense": "BlueOak-1.0.0",
+      "repository": "https://github.com/isaacs/minipass",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "minizlib",
+      "version": "3.1.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/isaacs/minizlib.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "moo",
+      "version": "0.5.3",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "https://github.com/tjvr/moo.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "morgan",
+      "version": "1.12.1",
+      "declaredLicense": "MIT",
+      "repository": "expressjs/morgan",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ms",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "zeit/ms",
+      "rootLicenseFiles": [
+        "license.md"
+      ]
+    },
+    {
+      "name": "ms",
+      "version": "2.1.2",
+      "declaredLicense": "MIT",
+      "repository": "zeit/ms",
+      "rootLicenseFiles": [
+        "license.md"
+      ]
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "declaredLicense": "MIT",
+      "repository": "vercel/ms",
+      "rootLicenseFiles": [
+        "license.md"
+      ]
+    },
+    {
+      "name": "mute-stream",
+      "version": "2.0.0",
+      "declaredLicense": "ISC",
+      "repository": "git+https://github.com/npm/mute-stream.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "mz",
+      "version": "2.7.0",
+      "declaredLicense": "MIT",
+      "repository": "normalize/mz",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "nan",
+      "version": "2.30.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/nodejs/nan.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "nearley",
+      "version": "2.20.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/hardmath123/nearley.git",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "negotiator",
+      "version": "0.6.3",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/negotiator",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "negotiator",
+      "version": "0.6.4",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/negotiator",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "negotiator",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/negotiator",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "node-domexception",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/jimmywarting/node-domexception.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "node-emoji",
+      "version": "2.2.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/omnidan/node-emoji",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "node-fetch",
+      "version": "2.7.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/bitinn/node-fetch.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "node-fetch",
+      "version": "3.3.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/node-fetch/node-fetch.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "node-gyp",
+      "version": "13.1.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/nodejs/node-gyp.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "nopt",
+      "version": "10.0.1",
+      "declaredLicense": "ISC",
+      "repository": "git+https://github.com/npm/nopt.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "normalize-path",
+      "version": "3.0.0",
+      "declaredLicense": "MIT",
+      "repository": "jonschlinkert/normalize-path",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "object-assign",
+      "version": "4.1.1",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/object-assign",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "object-hash",
+      "version": "3.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/puleos/object-hash",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "object-inspect",
+      "version": "1.13.4",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/inspect-js/object-inspect.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "on-finished",
+      "version": "2.3.0",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/on-finished",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "on-finished",
+      "version": "2.4.1",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/on-finished",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "on-headers",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/on-headers",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "once",
+      "version": "1.4.0",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/isaacs/once",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "one-time",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/3rd-Eden/one-time.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "onetime",
+      "version": "5.1.2",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/onetime",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "open",
+      "version": "6.4.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/open",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "openapi3-ts",
+      "version": "3.2.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/metadevpro/openapi3-ts.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ora",
+      "version": "5.4.1",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/ora",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "p-defer",
+      "version": "3.0.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/p-defer",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "p-limit",
+      "version": "3.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/p-limit",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "p-throttle",
+      "version": "8.1.1",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/p-throttle",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "package-json-from-dist",
+      "version": "1.0.1",
+      "declaredLicense": "BlueOak-1.0.0",
+      "repository": "git+https://github.com/isaacs/package-json-from-dist.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "parse5",
+      "version": "5.1.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/inikulin/parse5.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "parse5",
+      "version": "6.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/inikulin/parse5.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "parse5-htmlparser2-tree-adapter",
+      "version": "6.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/inikulin/parse5.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "parseurl",
+      "version": "1.3.3",
+      "declaredLicense": "MIT",
+      "repository": "pillarjs/parseurl",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "path-expression-matcher",
+      "version": "1.6.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/NaturalIntelligence/path-expression-matcher",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "path-key",
+      "version": "3.1.1",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/path-key",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "path-scurry",
+      "version": "1.11.1",
+      "declaredLicense": "BlueOak-1.0.0",
+      "repository": "git+https://github.com/isaacs/path-scurry",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "path-to-regexp",
+      "version": "0.1.13",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/pillarjs/path-to-regexp.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "path-to-regexp",
+      "version": "1.9.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/pillarjs/path-to-regexp.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "path-to-regexp",
+      "version": "8.4.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/pillarjs/path-to-regexp.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pg",
+      "version": "8.23.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/brianc/node-postgres.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pg-cloudflare",
+      "version": "1.4.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/brianc/node-postgres.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pg-connection-string",
+      "version": "2.14.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/brianc/node-postgres.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pg-gateway",
+      "version": "0.3.0-beta.4",
+      "declaredLicense": "MIT",
+      "repository": "",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "pg-int8",
+      "version": "1.0.1",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/charmander/pg-int8",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pg-pool",
+      "version": "3.14.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/brianc/node-postgres.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pg-protocol",
+      "version": "1.16.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/brianc/node-postgres.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pg-types",
+      "version": "2.2.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/brianc/node-pg-types.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "pgpass",
+      "version": "1.0.5",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/hoegaarden/pgpass.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "picomatch",
+      "version": "2.3.2",
+      "declaredLicense": "MIT",
+      "repository": "micromatch/picomatch",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.7",
+      "declaredLicense": "MIT",
+      "repository": "micromatch/picomatch",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pkce-challenge",
+      "version": "5.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/crouchcd/pkce-challenge.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "playwright",
+      "version": "1.64.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/microsoft/playwright.git",
+      "rootLicenseFiles": [
+        "LICENSE",
+        "NOTICE"
+      ]
+    },
+    {
+      "name": "playwright-core",
+      "version": "1.64.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/microsoft/playwright.git",
+      "rootLicenseFiles": [
+        "LICENSE",
+        "NOTICE"
+      ]
+    },
+    {
+      "name": "portfinder",
+      "version": "1.0.38",
+      "declaredLicense": "MIT",
+      "repository": "git@github.com:http-party/node-portfinder.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "postgres-array",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "bendrucker/postgres-array",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "postgres-bytea",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "bendrucker/postgres-bytea",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "postgres-date",
+      "version": "1.0.7",
+      "declaredLicense": "MIT",
+      "repository": "bendrucker/postgres-date",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "postgres-interval",
+      "version": "1.2.0",
+      "declaredLicense": "MIT",
+      "repository": "bendrucker/postgres-interval",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "proc-log",
+      "version": "7.0.0",
+      "declaredLicense": "ISC",
+      "repository": "git+https://github.com/npm/proc-log.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "process",
+      "version": "0.11.10",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/shtylman/node-process.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "process-nextick-args",
+      "version": "2.0.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/calvinmetcalf/process-nextick-args.git",
+      "rootLicenseFiles": [
+        "license.md"
+      ]
+    },
+    {
+      "name": "progress",
+      "version": "2.0.3",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/visionmedia/node-progress",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "promise-breaker",
+      "version": "6.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/jwalton/node-promise-breaker",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "proto-list",
+      "version": "1.2.4",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/isaacs/proto-list",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "proto3-json-serializer",
+      "version": "3.0.4",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node-core.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "proto3-json-serializer",
+      "version": "4.1.0",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "protobufjs",
+      "version": "7.6.6",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "protobufjs/protobuf.js",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "proxy-addr",
+      "version": "2.0.8",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/proxy-addr",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pupa",
+      "version": "2.1.1",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/pupa",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "qs",
+      "version": "6.16.1",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "https://github.com/ljharb/qs.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "railroad-diagrams",
+      "version": "1.0.0",
+      "declaredLicense": "CC0-1.0",
+      "repository": "https://github.com/tabatkins/railroad-diagrams.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "randexp",
+      "version": "0.4.6",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/fent/randexp.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "range-parser",
+      "version": "1.2.1",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/range-parser",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "range-parser",
+      "version": "1.3.0",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/range-parser",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "raw-body",
+      "version": "2.5.3",
+      "declaredLicense": "MIT",
+      "repository": "stream-utils/raw-body",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "raw-body",
+      "version": "3.0.2",
+      "declaredLicense": "MIT",
+      "repository": "stream-utils/raw-body",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "rc",
+      "version": "1.2.8",
+      "declaredLicense": "(BSD-2-Clause OR MIT OR Apache-2.0)",
+      "repository": "https://github.com/dominictarr/rc.git",
+      "rootLicenseFiles": [
+        "LICENSE.APACHE2",
+        "LICENSE.BSD",
+        "LICENSE.MIT"
+      ],
+      "preservedNotices": [
+        "licenses/dependencies/rc-1.2.8-LICENSE.APACHE2.txt",
+        "licenses/dependencies/rc-1.2.8-LICENSE.BSD.txt",
+        "licenses/dependencies/rc-1.2.8-LICENSE.MIT.txt"
+      ]
+    },
+    {
+      "name": "re2",
+      "version": "1.27.0",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "git+https://github.com/uhop/node-re2.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "re2js",
+      "version": "2.9.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/le0pard/re2js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "readable-stream",
+      "version": "2.3.8",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/nodejs/readable-stream",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "readable-stream",
+      "version": "3.6.2",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/nodejs/readable-stream",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "readable-stream",
+      "version": "4.8.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/nodejs/readable-stream",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "readdir-glob",
+      "version": "1.1.3",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git://github.com/Yqnn/node-readdir-glob.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "readdirp",
+      "version": "3.6.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/paulmillr/readdirp.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "registry-auth-token",
+      "version": "5.1.1",
+      "declaredLicense": "MIT",
+      "repository": "git+ssh://git@github.com/rexxars/registry-auth-token.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "registry-url",
+      "version": "5.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/registry-url",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "require-directory",
+      "version": "2.1.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/troygoode/node-require-directory.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "require-from-string",
+      "version": "2.0.2",
+      "declaredLicense": "MIT",
+      "repository": "floatdrop/require-from-string",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "restore-cursor",
+      "version": "3.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/restore-cursor",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "ret",
+      "version": "0.1.15",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/fent/ret.js.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "retry",
+      "version": "0.13.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/tim-kos/node-retry.git",
+      "rootLicenseFiles": [
+        "License"
+      ]
+    },
+    {
+      "name": "retry-request",
+      "version": "8.0.4",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "retry-request",
+      "version": "9.1.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "rimraf",
+      "version": "5.0.10",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/isaacs/rimraf.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "router",
+      "version": "2.2.0",
+      "declaredLicense": "MIT",
+      "repository": "pillarjs/router",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "safe-buffer",
+      "version": "5.1.2",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/feross/safe-buffer.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "safe-buffer",
+      "version": "5.2.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/feross/safe-buffer.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "safe-stable-stringify",
+      "version": "2.5.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/BridgeAR/safe-stable-stringify.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "safer-buffer",
+      "version": "2.1.2",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ChALkeR/safer-buffer.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "semver",
+      "version": "6.3.1",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/npm/node-semver.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "semver",
+      "version": "7.8.5",
+      "declaredLicense": "ISC",
+      "repository": "git+https://github.com/npm/node-semver.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "semver-diff",
+      "version": "3.1.1",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/semver-diff",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "send",
+      "version": "0.19.2",
+      "declaredLicense": "MIT",
+      "repository": "pillarjs/send",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "send",
+      "version": "1.2.1",
+      "declaredLicense": "MIT",
+      "repository": "pillarjs/send",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "serve-static",
+      "version": "1.16.3",
+      "declaredLicense": "MIT",
+      "repository": "expressjs/serve-static",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "serve-static",
+      "version": "2.2.1",
+      "declaredLicense": "MIT",
+      "repository": "expressjs/serve-static",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "setprototypeof",
+      "version": "1.2.0",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/wesleytodd/setprototypeof.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "shebang-command",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "kevva/shebang-command",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "shebang-regex",
+      "version": "3.0.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/shebang-regex",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "side-channel",
+      "version": "1.1.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ljharb/side-channel.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "side-channel-list",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ljharb/side-channel-list.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "side-channel-map",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ljharb/side-channel-map.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "side-channel-weakmap",
+      "version": "1.0.2",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/ljharb/side-channel-weakmap.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "signal-exit",
+      "version": "3.0.7",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/tapjs/signal-exit.git",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "signal-exit",
+      "version": "4.1.0",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/tapjs/signal-exit.git",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "skin-tone",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/skin-tone",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "split2",
+      "version": "4.2.0",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/mcollina/split2.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "sql-formatter",
+      "version": "15.9.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/sql-formatter-org/sql-formatter.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "stack-trace",
+      "version": "0.0.10",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/felixge/node-stack-trace.git",
+      "rootLicenseFiles": [
+        "License"
+      ]
+    },
+    {
+      "name": "statuses",
+      "version": "1.5.0",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/statuses",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "statuses",
+      "version": "2.0.2",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/statuses",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "stream-chain",
+      "version": "4.2.6",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "git+https://github.com/uhop/stream-chain.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "stream-events",
+      "version": "1.0.5",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/stephenplusplus/stream-events",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "stream-json",
+      "version": "3.7.0",
+      "declaredLicense": "BSD-3-Clause",
+      "repository": "git+https://github.com/uhop/stream-json.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "stream-shift",
+      "version": "1.0.3",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/mafintosh/stream-shift.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "streamx",
+      "version": "2.28.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/mafintosh/streamx.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "string_decoder",
+      "version": "1.1.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/nodejs/string_decoder.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "string_decoder",
+      "version": "1.3.0",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/nodejs/string_decoder.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "string-width",
+      "version": "4.2.3",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/string-width",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "string-width",
+      "version": "5.1.2",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/string-width",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "strip-ansi",
+      "version": "6.0.1",
+      "declaredLicense": "MIT",
+      "repository": "chalk/strip-ansi",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "strip-ansi",
+      "version": "7.2.0",
+      "declaredLicense": "MIT",
+      "repository": "chalk/strip-ansi",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "strip-json-comments",
+      "version": "2.0.1",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/strip-json-comments",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "strnum",
+      "version": "2.5.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/NaturalIntelligence/strnum",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "stubs",
+      "version": "3.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/stephenplusplus/stubs",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "superstatic",
+      "version": "10.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/firebase/superstatic.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "supports-color",
+      "version": "7.2.0",
+      "declaredLicense": "MIT",
+      "repository": "chalk/supports-color",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "supports-hyperlinks",
+      "version": "3.2.0",
+      "declaredLicense": "MIT",
+      "repository": "chalk/supports-hyperlinks",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "tar",
+      "version": "7.5.22",
+      "declaredLicense": "BlueOak-1.0.0",
+      "repository": "https://github.com/isaacs/node-tar.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "tar-stream",
+      "version": "3.2.2",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/mafintosh/tar-stream.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "tcp-port-used",
+      "version": "1.0.3",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/stdarg/tcp-port-used.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "teeny-request",
+      "version": "10.1.4",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "teeny-request",
+      "version": "11.1.1",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/googleapis/google-cloud-node.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "teex",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/mafintosh/teex.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "text-decoder",
+      "version": "1.2.7",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git+https://github.com/holepunchto/text-decoder.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "text-hex",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/3rd-Eden/text-hex",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "thenify",
+      "version": "3.3.1",
+      "declaredLicense": "MIT",
+      "repository": "thenables/thenify",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "thenify-all",
+      "version": "1.6.0",
+      "declaredLicense": "MIT",
+      "repository": "thenables/thenify-all",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/SuperchupuDev/tinyglobby.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "tmp",
+      "version": "0.2.7",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/raszi/node-tmp.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "to-regex-range",
+      "version": "5.0.1",
+      "declaredLicense": "MIT",
+      "repository": "micromatch/to-regex-range",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "toidentifier",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "component/toidentifier",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "toxic",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/scottcorgan/toxic.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "tr46",
+      "version": "0.0.3",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/Sebmaster/tr46.js.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "triple-beam",
+      "version": "1.4.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/winstonjs/triple-beam.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "declaredLicense": "0BSD",
+      "repository": "https://github.com/Microsoft/tslib.git",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "tsscmp",
+      "version": "1.0.6",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/suryagh/tsscmp.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "type-fest",
+      "version": "0.20.2",
+      "declaredLicense": "(MIT OR CC0-1.0)",
+      "repository": "sindresorhus/type-fest",
+      "rootLicenseFiles": [
+        "license"
+      ],
+      "preservedNotices": [
+        "licenses/dependencies/type-fest-0.20.2-license.txt"
+      ]
+    },
+    {
+      "name": "type-is",
+      "version": "1.6.18",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/type-is",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "type-is",
+      "version": "2.1.0",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/type-is",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "typedarray-to-buffer",
+      "version": "3.1.5",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/feross/typedarray-to-buffer.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "typescript",
+      "version": "7.0.2",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/microsoft/TypeScript.git",
+      "rootLicenseFiles": [
+        "LICENSE",
+        "NOTICE.txt"
+      ],
+      "preservedNotices": [
+        "licenses/dependencies/typescript-7.0.2-LICENSE.txt",
+        "licenses/dependencies/typescript-7.0.2-NOTICE.txt.txt"
+      ]
+    },
+    {
+      "name": "undici",
+      "version": "6.29.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/nodejs/undici.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "undici",
+      "version": "8.12.3",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/nodejs/undici.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "undici-types",
+      "version": "6.21.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/nodejs/undici.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "undici-types",
+      "version": "8.9.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/nodejs/undici.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "unicode-emoji-modifier-base",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/mathiasbynens/unicode-emoji-modifier-base.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "unique-string",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/unique-string",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "universalify",
+      "version": "2.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/RyanZim/universalify.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "unpipe",
+      "version": "1.0.0",
+      "declaredLicense": "MIT",
+      "repository": "stream-utils/unpipe",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "update-notifier-cjs",
+      "version": "5.1.7",
+      "declaredLicense": "BSD-2-Clause",
+      "repository": "ryanblock/update-notifier-cjs",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "url-join",
+      "version": "0.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/jfromaniello/url-join.git",
+      "rootLicenseFiles": []
+    },
+    {
+      "name": "url-template",
+      "version": "2.0.8",
+      "declaredLicense": "BSD",
+      "repository": "git://github.com/bramstein/url-template.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ],
+      "reviewedLicense": "BSD-3-Clause (file LICENSE)",
+      "preservedNotices": [
+        "licenses/dependencies/url-template-2.0.8-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "util-deprecate",
+      "version": "1.0.2",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/TooTallNate/util-deprecate.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "utils-merge",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/jaredhanson/utils-merge.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "uuid",
+      "version": "11.1.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/uuidjs/uuid.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "valid-url",
+      "version": "1.0.9",
+      "declaredLicense": "UNKNOWN",
+      "repository": "git://github.com/ogt/valid-url.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ],
+      "reviewedLicense": "MIT (file LICENSE)",
+      "preservedNotices": [
+        "licenses/dependencies/valid-url-1.0.9-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "vary",
+      "version": "1.1.2",
+      "declaredLicense": "MIT",
+      "repository": "jshttp/vary",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "wcwidth",
+      "version": "1.0.1",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/timoxley/wcwidth.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "web-streams-polyfill",
+      "version": "3.3.3",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/MattiasBuelens/web-streams-polyfill.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "web-vitals",
+      "version": "4.2.4",
+      "declaredLicense": "Apache-2.0",
+      "repository": "https://github.com/GoogleChrome/web-vitals.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "webidl-conversions",
+      "version": "3.0.1",
+      "declaredLicense": "BSD-2-Clause",
+      "repository": "jsdom/webidl-conversions",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "websocket-driver",
+      "version": "0.7.5",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git://github.com/faye/websocket-driver-node.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "websocket-extensions",
+      "version": "0.1.4",
+      "declaredLicense": "Apache-2.0",
+      "repository": "git://github.com/faye/websocket-extensions-node.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "whatwg-fetch",
+      "version": "3.6.20",
+      "declaredLicense": "MIT",
+      "repository": "github/fetch",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "whatwg-url",
+      "version": "5.0.0",
+      "declaredLicense": "MIT",
+      "repository": "jsdom/whatwg-url",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "which",
+      "version": "2.0.2",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/isaacs/node-which.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "which",
+      "version": "7.0.0",
+      "declaredLicense": "ISC",
+      "repository": "git+https://github.com/npm/node-which.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "widest-line",
+      "version": "3.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/widest-line",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "winston",
+      "version": "3.19.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/winstonjs/winston.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "winston-transport",
+      "version": "4.9.0",
+      "declaredLicense": "MIT",
+      "repository": "git@github.com:winstonjs/winston-transport.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "wrap-ansi",
+      "version": "6.2.0",
+      "declaredLicense": "MIT",
+      "repository": "chalk/wrap-ansi",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "wrap-ansi",
+      "version": "7.0.0",
+      "declaredLicense": "MIT",
+      "repository": "chalk/wrap-ansi",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "wrap-ansi",
+      "version": "8.1.0",
+      "declaredLicense": "MIT",
+      "repository": "chalk/wrap-ansi",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "wrappy",
+      "version": "1.0.2",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/npm/wrappy",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "write-file-atomic",
+      "version": "3.0.3",
+      "declaredLicense": "ISC",
+      "repository": "git://github.com/npm/write-file-atomic.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ws",
+      "version": "8.22.0",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/websockets/ws.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "xdg-basedir",
+      "version": "4.0.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/xdg-basedir",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "xml-naming",
+      "version": "0.3.0",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/NaturalIntelligence/xml-naming",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "xtend",
+      "version": "4.0.2",
+      "declaredLicense": "MIT",
+      "repository": "git://github.com/Raynos/xtend.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "y18n",
+      "version": "5.0.8",
+      "declaredLicense": "ISC",
+      "repository": "yargs/y18n",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "yallist",
+      "version": "5.0.0",
+      "declaredLicense": "BlueOak-1.0.0",
+      "repository": "git+https://github.com/isaacs/yallist.git",
+      "rootLicenseFiles": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "yaml",
+      "version": "2.9.1",
+      "declaredLicense": "ISC",
+      "repository": "github:eemeli/yaml",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "yargs",
+      "version": "16.2.2",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/yargs/yargs.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "yargs",
+      "version": "17.7.3",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/yargs/yargs.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "yargs-parser",
+      "version": "20.2.9",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/yargs/yargs-parser.git",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "yargs-parser",
+      "version": "21.1.1",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/yargs/yargs-parser.git",
+      "rootLicenseFiles": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "yocto-queue",
+      "version": "0.1.0",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/yocto-queue",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "yoctocolors-cjs",
+      "version": "2.1.3",
+      "declaredLicense": "MIT",
+      "repository": "sindresorhus/yoctocolors",
+      "rootLicenseFiles": [
+        "license"
+      ]
+    },
+    {
+      "name": "zip-stream",
+      "version": "6.0.1",
+      "declaredLicense": "MIT",
+      "repository": "https://github.com/archiverjs/node-zip-stream.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "zod",
+      "version": "4.6.7",
+      "declaredLicense": "MIT",
+      "repository": "git+https://github.com/colinhacks/zod.git",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "zod-to-json-schema",
+      "version": "3.25.2",
+      "declaredLicense": "ISC",
+      "repository": "https://github.com/StefanTerdell/zod-to-json-schema",
+      "rootLicenseFiles": [
+        "LICENSE"
+      ]
+    }
+  ]
+}

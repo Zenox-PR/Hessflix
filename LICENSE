@@ -1,0 +1,119 @@
+HESSFLIX — LICENCE DE CONSULTATION ET D'UTILISATION NON COMMERCIALE
+Version 1.0 — 28 octobre 2026
+
+Copyright (c) 2026 zenox-PR, pour les contributions originales dont il détient les droits.
+
+1. CHAMP D'APPLICATION
+
+La présente licence s'applique uniquement aux contributions originales au code
+source et à la documentation de Hessflix pour lesquelles zenox-PR (le
+« Titulaire ») possède effectivement les droits nécessaires. Elle ne constitue
+pas une revendication de propriété sur la totalité des fichiers du dépôt.
+
+Les composants, portions de code, contributions d'autres auteurs et contenus
+tiers restent soumis à leurs propres droits, licences et notices. Ils sont
+exclus de la présente licence, même lorsqu'ils sont incorporés ou associés à
+Hessflix. L'absence d'une annotation dans un fichier ne permet pas de présumer
+qu'un élément tiers appartient au Titulaire. Les indications de provenance et
+les réserves figurent notamment dans THIRD_PARTY_NOTICES.md et les fichiers
+SOURCES.md ; leur inventaire peut nécessiter des vérifications supplémentaires.
+
+2. AUTORISATIONS NON COMMERCIALES
+
+Sous réserve du respect de la présente licence, le Titulaire accorde une
+permission non exclusive, mondiale et gratuite pour :
+- consulter et étudier les contributions couvertes ;
+- les télécharger et en réaliser des copies à des fins personnelles,
+  éducatives ou de recherche non commerciales ;
+- les modifier et les exécuter dans un environnement non commercial ;
+- redistribuer des copies ou des versions modifiées uniquement à des fins
+  non commerciales, en conservant cette licence et les mentions de droits,
+  et en signalant les modifications significatives.
+
+Ces permissions n'autorisent pas à retirer ou contourner les obligations
+applicables aux éléments tiers, ni à concéder sur les contributions couvertes
+des permissions commerciales que le Titulaire n'a pas accordées.
+
+3. INTERDICTION D'EXPLOITATION COMMERCIALE
+
+Sans autorisation écrite préalable du Titulaire, il est interdit d'exploiter
+les contributions couvertes à des fins principalement destinées à obtenir un
+avantage commercial ou une compensation financière, notamment en :
+- vendant, louant ou concédant commercialement ces contributions ou leurs
+  versions dérivées ;
+- les intégrant dans un produit, une prestation ou un service commercial,
+  notamment payant ;
+- les utilisant dans un service financé par publicité, abonnement,
+  parrainage commercial ou autre monétisation ;
+- distribuant commercialement une version modifiée qui les incorpore.
+
+Le caractère gratuit de l'accès pour l'utilisateur final ne suffit pas à
+rendre non commerciale une exploitation monétisée ou principalement destinée
+à procurer un avantage commercial. En cas de doute, solliciter une autorisation
+écrite avant l'exploitation envisagée.
+
+Une demande d'autorisation commerciale doit être adressée à zenox-PR par un
+canal qu'il aura publiquement identifié. Aucun accord tacite ne résulte de la
+seule publication du dépôt, de son téléchargement ou de l'absence de réponse.
+Aucune adresse de contact n'est fournie avec cette version de la licence.
+
+4. ATTRIBUTION ET REDISTRIBUTION
+
+Toute redistribution autorisée doit conserver la présente licence, les avis
+de droit d'auteur et les mentions d'attribution applicables. Les modifications
+significatives doivent être indiquées sans suggérer une approbation par le
+Titulaire. La présente licence ne permet pas d'apposer des conditions sur des
+éléments tiers qui contrediraient les permissions de leur propre licence.
+
+5. DROITS DES TIERS ET CONTENUS MULTIMÉDIAS
+
+Aucun droit n'est accordé par la présente licence sur les bibliothèques,
+marques, noms commerciaux, affiches, photographies, avatars, logos, clips,
+vidéos, films, séries, animes, métadonnées ou autres contenus dont le Titulaire
+ne possède pas les droits. Leurs propres licences, contrats, conditions et
+obligations d'attribution restent applicables.
+
+Les éléments issus de MovixOpenSource ne sont pas relicenciés par ce texte.
+Les éléments effectivement couverts par sa licence CC BY-NC 4.0 conservent
+cette licence et ses permissions, obligations et modalités de rétablissement
+des droits. Aucune restriction supplémentaire de cette licence Hessflix ne
+leur est imposée. Une licence de dépôt ne garantit pas que son auteur dispose
+des droits sur les personnages, marques ou médias de tiers qu'il référence.
+
+La présente licence n'autorise aucune diffusion d'œuvres protégées sans les
+droits nécessaires. Une autorisation commerciale de zenox-PR ne porte que sur
+les droits qu'il détient ; les autorisations des autres ayants droit doivent
+être obtenues séparément lorsque nécessaires.
+
+6. ABSENCE DE GARANTIE
+
+DANS LES LIMITES PERMISES PAR LA LOI APPLICABLE, LES CONTRIBUTIONS COUVERTES
+SONT FOURNIES « EN L'ÉTAT », SANS GARANTIE EXPRESSE OU IMPLICITE, NOTAMMENT DE
+QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER OU D'ABSENCE DE
+CONTREFAÇON. LA MENTION D'UNE SOURCE OU D'UNE LICENCE NE CONSTITUE PAS UNE
+GARANTIE D'EXHAUSTIVITÉ DE L'INVENTAIRE DES DROITS.
+
+7. RESPONSABILITÉ
+
+DANS LES LIMITES PERMISES PAR LA LOI APPLICABLE, LE TITULAIRE NE SAURAIT ÊTRE
+TENU RESPONSABLE DES DOMMAGES RÉSULTANT DE L'UTILISATION DES CONTRIBUTIONS
+COUVERTES. LES DROITS ET RECOURS IMPÉRATIFS RECONNUS PAR LA LOI DEMEURENT
+INCHANGÉS.
+
+8. FIN DES AUTORISATIONS
+
+Les autorisations accordées par la présente licence cessent en cas de
+violation de ses conditions, sous réserve des dispositions impératives de la
+loi applicable. Une cessation n'affecte pas les droits que d'autres titulaires
+ont accordés indépendamment sur leurs propres éléments. Elle n'efface pas les
+obligations d'attribution et de conservation des notices.
+
+9. AUTORISATIONS SUPPLÉMENTAIRES
+
+Le Titulaire peut accorder séparément, par écrit, une autorisation commerciale
+ou des droits additionnels sur ses contributions. Cette faculté ne permet
+pas de modifier les licences d'autres auteurs ni d'autoriser la diffusion de
+leurs œuvres à leur place.
+
+Cette licence est personnalisée. Elle ne constitue pas une licence open source
+au sens de l'Open Source Initiative, en raison de sa restriction commerciale.

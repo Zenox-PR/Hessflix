@@ -1,0 +1,24 @@
+.catalogue-loading-notice {
+  position: fixed;
+  z-index: 75;
+  left: max(1rem, env(safe-area-inset-left));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: min(36rem, calc(100vw - 2rem));
+  padding: 1rem 1.25rem;
+  border: 1px solid rgba(142, 174, 229, .24);
+  border-radius: 1rem;
+  background: #101723;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, .3);
+  color: #dce7f9;
+  font-size: .875rem;
+  line-height: 1.5;
+}
+.catalogue-loading-notice[hidden] { display: none; }
+.catalogue-loading-notice button { flex-shrink: 0; }
+body:has(.personal-sync-notice:not([hidden])) .catalogue-loading-notice { bottom: 7.5rem; }
+@media (max-width: 480px) {
+  .catalogue-loading-notice { flex-wrap: wrap; gap: .5rem; }
+}

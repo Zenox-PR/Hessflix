@@ -1,0 +1,89 @@
+/* Lumière diffuse, accordée à chaque plateforme et placée derrière le contenu. */
+body {
+  --ambient-base: #070a12;
+  --ambient-primary: 49, 88, 190;
+  --ambient-secondary: 111, 62, 183;
+  --ambient-panel: 8, 12, 21;
+  isolation: isolate;
+  background: var(--ambient-base);
+}
+body[data-platform="netflix"] {
+  --ambient-base: #0c070a;
+  --ambient-primary: 229, 9, 20;
+  --ambient-secondary: 133, 21, 43;
+  --ambient-panel: 13, 8, 11;
+}
+body[data-platform="prime-video"] {
+  --ambient-base: #060c13;
+  --ambient-primary: 0, 168, 225;
+  --ambient-secondary: 29, 100, 172;
+  --ambient-panel: 7, 13, 20;
+}
+body[data-platform="paramount"] {
+  --ambient-base: #070b16;
+  --ambient-primary: 0, 100, 255;
+  --ambient-secondary: 40, 72, 172;
+  --ambient-panel: 8, 12, 24;
+}
+body[data-platform="disney"] {
+  --ambient-base: #060c18;
+  --ambient-primary: 32, 133, 203;
+  --ambient-secondary: 42, 65, 161;
+  --ambient-panel: 7, 14, 26;
+}
+body[data-platform="marvel"] {
+  --ambient-base: #0c0709;
+  --ambient-primary: 237, 29, 36;
+  --ambient-secondary: 133, 16, 31;
+  --ambient-panel: 14, 8, 10;
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: clamp(760px, 82vw, 1180px);
+  height: clamp(760px, 82vw, 1180px);
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 40% 44%,
+      rgba(var(--ambient-primary), .16) 0%,
+      rgba(var(--ambient-primary), .095) 28%,
+      rgba(var(--ambient-primary), .035) 48%,
+      transparent 72%),
+    radial-gradient(ellipse at 62% 56%,
+      rgba(var(--ambient-secondary), .13) 0%,
+      rgba(var(--ambient-secondary), .07) 28%,
+      rgba(var(--ambient-secondary), .025) 50%,
+      transparent 76%);
+  transform: translate3d(
+    calc(var(--ambient-x, 60vw) - 50%),
+    calc(var(--ambient-y, 35vh) - 50%),
+    0
+  );
+}
+body[data-ambient-motion="tracking"]::before { will-change: transform; }
+body > header, body > main, body > footer { position: relative; }
+body .aurora { display: none; }
+body .hero {
+  background: linear-gradient(110deg, #090d17f0, #090d17d6 51%, #0c111fa3);
+}
+body .universe-hero {
+  background: linear-gradient(110deg, rgba(var(--ambient-panel), .94), rgba(var(--ambient-panel), .8) 52%, rgba(var(--ambient-primary), .06));
+  box-shadow: 0 25px 80px #0004;
+}
+
+/* Le fond reste fixe sur les écrans tactiles et en mouvement réduit. */
+@media (max-width: 650px), (hover: none), (pointer: coarse), (prefers-reduced-motion: reduce) {
+  body::before {
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform: none;
+    will-change: auto;
+    background:
+      radial-gradient(ellipse at 28% 15%, rgba(var(--ambient-primary), .18), transparent 65%),
+      radial-gradient(ellipse at 86% 38%, rgba(var(--ambient-secondary), .12), transparent 69%);
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "movix-local",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.cjs",
+    "admin:check": "node scripts/grant-admin.cjs --check",
+    "admin:grant": "node scripts/grant-admin.cjs --apply",
+    "test": "tsc --project tsconfig.json && node --test tests/server.test.cjs tests/security.test.cjs tests/reliability.test.cjs tests/profiles.test.cjs tests/activity.test.cjs tests/personal.test.cjs tests/personal-recovery.test.cjs tests/tmdb.test.cjs tests/catalogue.test.cjs tests/server-regressions.test.cjs tests/hero.test.cjs tests/auth-loading.test.cjs tests/avatar-assets.test.cjs tests/public-response.test.cjs tests/video.test.cjs tests/popular-import.test.cjs tests/search.test.cjs && playwright test",
+    "test:server": "node --test tests/server.test.cjs tests/security.test.cjs tests/reliability.test.cjs tests/profiles.test.cjs tests/activity.test.cjs tests/personal.test.cjs tests/personal-recovery.test.cjs tests/tmdb.test.cjs tests/catalogue.test.cjs tests/server-regressions.test.cjs tests/hero.test.cjs tests/auth-loading.test.cjs tests/avatar-assets.test.cjs tests/public-response.test.cjs tests/video.test.cjs tests/popular-import.test.cjs tests/search.test.cjs",
+    "catalogue:popular": "node scripts/import-popular.cjs",
+    "catalogue:platforms": "node scripts/map-imported-platforms.cjs",
+    "test:platforms": "node --test tests/platform-mapping.test.cjs",
+    "security:publication": "node scripts/check-publication.cjs",
+    "test:publication": "node --test tests/publication.test.cjs tests/platform-mapping.test.cjs",
+    "test:video": "node --test tests/video.test.cjs && playwright test tests/browser/video.spec.cjs",
+    "test:catalogue": "node --test tests/catalogue.test.cjs && playwright test tests/browser/catalogue.spec.cjs tests/browser/tmdb.spec.cjs",
+    "typecheck": "tsc --project tsconfig.json",
+    "test:firebase-smoke": "node scripts/check-firebase-browser.cjs",
+    "test:tmdb-live": "node scripts/check-tmdb.cjs",
+    "test:browser": "playwright test",
+    "security:cloud": "node scripts/check-cloud.cjs",
+    "test:rules": "firebase emulators:exec --project demo-movix-admin --only firestore,storage,database --config firebase.test.json \"node --test tests/rules.test.cjs\"",
+    "perf:measure": "node scripts/measure-performance.cjs",
+    "assets:avatars": "node scripts/optimize-avatars.cjs"
+  },
+  "dependencies": {
+    "firebase-admin": "14.5.0"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "@types/node": "22.20.5",
+    "@firebase/rules-unit-testing": "6.0.0",
+    "@playwright/test": "1.64.1",
+    "firebase": "13.1.0",
+    "firebase-tools": "15.34.1"
+  }
+}
