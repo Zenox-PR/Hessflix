@@ -13,8 +13,8 @@
     },
     {
       "file": ".github/workflows/hessflix-tests.yml",
-      "bytes": 1008,
-      "sha256": "c51176ce91fc1e7819d76d8e2e4f420f77cb8e3ea0e94d87f293a3d122d3fd1c"
+      "bytes": 1894,
+      "sha256": "98b2d4abc18ad6f880270dfcb0a8d610c6fe88fdfd7bfd2292c057e2addd376d"
     },
     {
       "file": ".gitignore",
@@ -78,13 +78,13 @@
     },
     {
       "file": "PUBLICATION.md",
-      "bytes": 2922,
-      "sha256": "28360349e8157777f1d19bd7e7aec92687ff200442c9fbdfc283d5d6d217a970"
+      "bytes": 3390,
+      "sha256": "0c75595413cbea9fdc0fed1db8ad4f7a5a5b1c5bc98acfe0f1f78ab2ca10d79d"
     },
     {
       "file": "README.md",
-      "bytes": 12956,
-      "sha256": "3eeca2315509f368c5748329833b2b73a1869753db54c874cc6613b8b9a5fd08"
+      "bytes": 13574,
+      "sha256": "00f32acce940c1a998a23f5b867445722843d051f913400883623d3669088e3e"
     },
     {
       "file": "SECURITY.md",
@@ -16752,6 +16752,31 @@
       "sha256": "0a22330b210a63e85b0232b3f8788d57ca6521cf6320814e261278ca0286e48e"
     },
     {
+      "file": "demo/auth.js",
+      "bytes": 2420,
+      "sha256": "2e0c3d532e0299360425d30a2f797d43d114c2777303d98fd5dc23f8a5135b5d"
+    },
+    {
+      "file": "demo/demo.css",
+      "bytes": 1295,
+      "sha256": "3eab542b795ca45c0316695108c9c0e496ce955550133b011ad776d78a054a6e"
+    },
+    {
+      "file": "demo/personal.js",
+      "bytes": 2662,
+      "sha256": "cfc5c6b88490a08db5fcc938335e285cb5571d4a16531fb6803b64e1d901c0d7"
+    },
+    {
+      "file": "demo/runtime.js",
+      "bytes": 5727,
+      "sha256": "3d46d74b15c9cb8939e45300b3f35b971608f18cd6f9b41e8d186057c2d94b4a"
+    },
+    {
+      "file": "demo/video.js",
+      "bytes": 842,
+      "sha256": "0aae3fe7046cb7117a88ec44dc08d9a8821b8af99154a62ea929ac22af2a52a8"
+    },
+    {
       "file": "deploy/README.md",
       "bytes": 4755,
       "sha256": "062c1082fdbfc40f7612dab95f04ce057b53f2d08db9baef14bf495519832649"
@@ -16790,6 +16815,11 @@
       "file": "docs/CI_FIX_2026-10-28.md",
       "bytes": 3991,
       "sha256": "a63abef1b48e41640e1443111f970fa5632165086e6804074943ecbb20d651e9"
+    },
+    {
+      "file": "docs/DEMO.md",
+      "bytes": 3253,
+      "sha256": "3c01bcb7d90f709c5fbd51f1c2cfde465c1876bf13ed8ef848d3bfe31a44deb9"
     },
     {
       "file": "docs/REVIEW.md",
@@ -16963,8 +16993,8 @@
     },
     {
       "file": "package.json",
-      "bytes": 2739,
-      "sha256": "3c92ed96beba33d664d9b760dfb694af9cca345dc789cee16804f9d36f17935d"
+      "bytes": 2852,
+      "sha256": "020d7412b078a8e285021babec664628d94cbbf7f61ca8ab5ee18031bf272010"
     },
     {
       "file": "paramount.html",
@@ -17050,6 +17080,11 @@
       "file": "profiles.js",
       "bytes": 15737,
       "sha256": "218d332055de98e0f3329b43bc6739095f8d8bf0f2bccc129563f6632b8e67b6"
+    },
+    {
+      "file": "scripts/build-demo.cjs",
+      "bytes": 7953,
+      "sha256": "31a11af52afb67d7df0e81c7431ced04720118efb0be5bbd8b3c45c3dc04c731"
     },
     {
       "file": "scripts/capture-readme.cjs",
@@ -17280,6 +17315,11 @@
       "file": "tests/browser/catalogue.spec.cjs",
       "bytes": 14147,
       "sha256": "8749de75a8f89efb3abb3752e957ca60682f618f14913f08ac03d92bfd457abf"
+    },
+    {
+      "file": "tests/browser/demo.spec.cjs",
+      "bytes": 9128,
+      "sha256": "1c7adcb176738f536c3a853b5c9b80b5013f9767905ae9b3402e66c6b7b45ced"
     },
     {
       "file": "tests/browser/hero-admin.spec.cjs",

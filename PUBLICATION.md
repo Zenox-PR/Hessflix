@@ -1,5 +1,11 @@
 # Copie autonome préparée pour revue GitHub
 
+**Mise à jour — démonstration GitHub Pages :** la publication du portfolio construit désormais
+une version statique isolée via `pnpm build:demo`. Seul `output/github-pages/` est déployé,
+après les tests. Elle n'utilise aucun compte Firebase ni secret et n'expose pas les routes
+administrateur. Voir [docs/DEMO.md](docs/DEMO.md). Les paragraphes décrivant la préparation
+initiale ci-dessous sont historiques ; le serveur complet reste distinct de la démo.
+
 Cette copie contient uniquement Hessflix. Lors de la préparation initiale, aucun dépôt distant, aucune publication et aucun push n'avaient été créés. L'ancien dépôt et ses sauvegardes restent sur le poste du propriétaire. L'historique ancien n'est pas importé. Les réserves documentées sur les droits des médias tiers restent applicables ; une décision de publier ne vaut pas confirmation de ces droits.
 
 Les paramètres Firebase sont des exemples : cette copie n'est pas reliée au compte du propriétaire. Pour votre propre instance, remplacer les valeurs de firebase-auth.js par la configuration Web de votre projet, puis PROJECT_ID et ADMIN_UID dans server/policy.cjs. Remplacer le même UID exemple dans firestore.rules, storage.rules et database.rules.json. Ces fichiers sont du code de configuration, pas des données d'utilisateurs. Ne jamais remplacer ces valeurs par une clé privée.

@@ -7,6 +7,8 @@
     "node": ">=22"
   },
   "scripts": {
+    "build:demo": "node scripts/build-demo.cjs",
+    "test:demo": "playwright test tests/browser/demo.spec.cjs",
     "start": "node server.cjs",
     "admin:check": "node scripts/grant-admin.cjs --check",
     "admin:grant": "node scripts/grant-admin.cjs --apply",

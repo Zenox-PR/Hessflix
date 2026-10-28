@@ -14,7 +14,7 @@ Films, séries et animes · Profils indépendants · Administration privée
 [![Métadonnées](https://img.shields.io/badge/M%C3%A9tadonn%C3%A9es-TMDB-01B4E4?style=flat-square)](https://www.themoviedb.org/)
 [![Licence personnalisée](https://img.shields.io/badge/Licence-Non_commerciale-4267CB?style=flat-square)](LICENSE)
 
-[Aperçu](#aperçu) · [Fonctionnalités](#fonctionnalités) · [Installation](#installation) · [Sécurité](#sécurité) · [Licence](#licence-et-droits-des-tiers)
+[Essayer la démo](https://zenox-pr.github.io/Hessflix/) · [Aperçu](#aperçu) · [Fonctionnalités](#fonctionnalités) · [Installation](#installation) · [Sécurité](#sécurité) · [Licence](#licence-et-droits-des-tiers)
 
 </div>
 
@@ -26,7 +26,7 @@ Hessflix réunit la découverte de contenus, les listes personnelles et la gesti
 
 Ce dépôt partage le **code de l'application**, sous licence personnalisée non commerciale. Il ne fournit ni compte Firebase, ni clé privée, ni données utilisateurs, ni catalogue cloud du propriétaire, ni fichiers de films ou d'épisodes.
 
-> **Copie de revue anonymisée.** Les identifiants Firebase sont fictifs. Les fonctions cloud exigent votre propre configuration. Aucun service de démonstration public n'est annoncé.
+> **Application et démonstration séparées.** Les identifiants Firebase du code partagé sont fictifs. Le site complet exige votre propre configuration. La [démo GitHub Pages](https://zenox-pr.github.io/Hessflix/) fonctionne sans Firebase, avec un catalogue d'exemple et des profils locaux.
 
 ## Aperçu
 
@@ -185,3 +185,12 @@ Sources détaillées : [crédits de l'application](credits.html), [avatars](asse
 Aucune affiliation ou approbation de la part des plateformes et ayants droit cités.
 
 </div>
+
+## Démonstration publique
+
+[Essayer Hessflix dans le navigateur](https://zenox-pr.github.io/Hessflix/)
+
+La version GitHub Pages est une **démo interactive** : catalogue d'exemple, profils fictifs,
+favoris et suivi des épisodes enregistrés uniquement dans votre navigateur. Aucun compte réel
+ni vidéo n'est proposé. Elle est indépendante du site complet utilisant Firebase.
+Voir [le fonctionnement et les limites de la démo](docs/DEMO.md).
