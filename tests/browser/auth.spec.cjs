@@ -760,6 +760,25 @@ test('synchronisation : visiteurs locaux sans envoi et anciennes données invali
  await expect(page.locator('.personal-sync-notice')).toContainText('n’ont pas été importées');expect(await page.evaluate(()=>localStorage.getItem('hessflix-activity-v1:test-user:primary'))).toBe('{broken');expect(await page.evaluate(()=>window.HessflixPersonal.favorites())).toEqual([]);
 });
 
+for (const [label, counter] of [['À reprendre', '#profile-progress-count'], ['Marquer comme vu', '#profile-watched-count']]) {
+ test('journal durable : navigation immédiate après ' + label, async ({ page }) => {
+  await login(page); await page.waitForURL(base + '/index.html');
+  await page.goto(base + '/titre.html?id=movie-tt0816692'); await ready(page);
+  await page.waitForFunction(() => window.HessflixPersonal?.snapshot().identity === 'test-user:primary' && window.HessflixPersonal.snapshot().profileReady);
+  await expect(page.locator('.title-follow').getByRole('button', { name: label, exact: true })).toBeEnabled();
+  await page.evaluate(({ label, base }) => {
+   const request = navigator.locks.request.bind(navigator.locks);
+   navigator.locks.request = (name, ...args) => name.startsWith('hessflix-personal-local:')
+    ? new Promise(resolve => setTimeout(() => resolve(request(name, ...args)), 3000)) : request(name, ...args);
+   [...document.querySelectorAll('.title-follow button')].find(button => button.textContent === label).click();
+   location.assign(base + '/compte.html#profil');
+  }, { label, base });
+  await page.waitForURL(base + '/compte.html#profil'); await ready(page);
+  await expect(page.locator(counter)).toHaveText('1');
+  await page.reload(); await ready(page); await expect(page.locator(counter)).toHaveText('1');
+ });
+}
+
 test('synchronisation : changer de profil avec des modifications en attente ne les réattribue pas',async({page})=>{
  await login(page);await page.waitForURL(base+'/index.html');await page.goto(base+'/compte.html#favoris');await synced(page);
  await page.locator('.profile-actions [data-switch-profile]').click();await page.locator('#viewer-add').click();await page.locator('#viewer-name').fill('Enfant');await page.locator('#viewer-add-form button[type=submit]').click();await expect(page.locator('#viewer-dialog')).toBeHidden();await synced(page);

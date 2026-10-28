@@ -79,3 +79,72 @@ test('network failures: do not mislabel a retryable operation as rejected', asyn
   await page.waitForFunction(() => window.HessflixPersonal.snapshot().pending === 0);
   expect(db.data.get(`viewerAccounts/${user.uid}/personal/primary`).favorites).toEqual(['tmdb-movie-501']);
 });
+
+test('write-ahead recovery: committed intent is not sent twice after interrupted cleanup', async ({ page }) => {
+  const sent = [];
+  page.on('request', request => {
+    if (request.method() === 'POST' && request.url().includes('/api/personal/')) sent.push(...(request.postDataJSON().operations || []));
+  });
+  await page.goto(base + '/compte.html#favoris');
+  await page.waitForFunction(() => window.HessflixPersonal?.snapshot().syncStatus === 'synced');
+  await page.evaluate(async () => {
+    const remove = Storage.prototype.removeItem;
+    Storage.prototype.removeItem = function (key) {
+      if (key.startsWith('hessflix-personal-intent-v1:')) throw new Error('Interrupted cleanup');
+      return remove.call(this, key);
+    };
+    await window.HessflixPersonal.setFavorite('tmdb-movie-501', true);
+    await window.HessflixPersonal.sync();
+  });
+  expect(await page.evaluate(() => Object.keys(localStorage).some(key => key.startsWith('hessflix-personal-intent-v1:')))).toBe(true);
+  await page.reload();
+  await page.waitForFunction(() => window.HessflixPersonal?.snapshot().syncStatus === 'synced' && window.HessflixPersonal.snapshot().pending === 0);
+  expect(await page.evaluate(() => window.HessflixPersonal.favorites())).toEqual(['tmdb-movie-501']);
+  expect(sent.filter(operation => operation.type === 'favorite' && operation.id === 'tmdb-movie-501')).toHaveLength(1);
+  expect(await page.evaluate(() => Object.keys(localStorage).some(key => key.startsWith('hessflix-personal-intent-v1:')))).toBe(false);
+});
+
+test('write-ahead recovery: failed journal save retains the intent across reload', async ({ page }) => {
+  await page.goto(base + '/compte.html#favoris');
+  await page.waitForFunction(() => window.HessflixPersonal?.snapshot().syncStatus === 'synced');
+  await page.evaluate(async () => {
+    const set = Storage.prototype.setItem;
+    Storage.prototype.setItem = function (key, value) {
+      if (key === 'hessflix-personal-v1:recovery-user:primary') throw new Error('Temporary quota');
+      return set.call(this, key, value);
+    };
+    await window.HessflixPersonal.setFavorite('tmdb-movie-501', true);
+  });
+  await expect(page.locator('.personal-sync-notice')).toContainText('Stockage indisponible');
+  expect(await page.evaluate(() => Object.keys(localStorage).some(key => key.startsWith('hessflix-personal-intent-v1:')))).toBe(true);
+  await page.reload();
+  await page.waitForFunction(() => window.HessflixPersonal?.snapshot().syncStatus === 'synced' && window.HessflixPersonal.snapshot().pending === 0);
+  expect(await page.evaluate(() => window.HessflixPersonal.favorites())).toEqual(['tmdb-movie-501']);
+  expect(db.data.get(`viewerAccounts/${user.uid}/personal/primary`).favorites).toEqual(['tmdb-movie-501']);
+});
+
+test('write-ahead recovery: two tabs keep independent clicks and another account stays untouched', async ({ page, context }) => {
+  await page.goto(base + '/compte.html#favoris');
+  await page.waitForFunction(() => window.HessflixPersonal?.snapshot().syncStatus === 'synced');
+  const second = await context.newPage();
+  try {
+    await second.goto(base + '/compte.html#favoris');
+    await second.waitForFunction(() => window.HessflixPersonal?.snapshot().syncStatus === 'synced');
+    const foreign = await page.evaluate(() => {
+      const key = 'hessflix-personal-intent-v1:another-account:primary:' + crypto.randomUUID();
+      const value = { version: 1, id: key.split(':').at(-1), order: Date.now(), operation: { type: 'favorite', id: 'tmdb-movie-999', value: true } };
+      localStorage.setItem(key, JSON.stringify(value)); return { key, text: JSON.stringify(value) };
+    });
+    for (const target of [page, second]) await target.evaluate(() => {
+      const request = navigator.locks.request.bind(navigator.locks);
+      navigator.locks.request = (name, ...args) => name.startsWith('hessflix-personal-local:')
+        ? new Promise(resolve => setTimeout(() => resolve(request(name, ...args)), 3000)) : request(name, ...args);
+    });
+    await Promise.all([page.evaluate(() => { void window.HessflixPersonal.setFavorite('tmdb-movie-501', true); location.reload(); }),
+      second.evaluate(() => { void window.HessflixPersonal.setFavorite('tmdb-movie-502', true); location.reload(); })]);
+    await page.waitForFunction(() => window.HessflixPersonal?.favorites().length === 2 && window.HessflixPersonal.snapshot().syncStatus === 'synced');
+    expect((await page.evaluate(() => window.HessflixPersonal.favorites())).sort()).toEqual(['tmdb-movie-501', 'tmdb-movie-502']);
+    expect(await page.evaluate(key => localStorage.getItem(key), foreign.key)).toBe(foreign.text);
+    expect(db.data.get(`viewerAccounts/${user.uid}/personal/primary`).favorites.sort()).toEqual(['tmdb-movie-501', 'tmdb-movie-502']);
+  } finally { await second.close(); }
+});

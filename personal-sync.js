@@ -25,7 +25,7 @@
       contexts.set(key, {
         uid, profile, key, persistent: true, corrupt: false,
         status: uid === 'guest' ? 'guest' : 'loading', memory: null,
-        loaded: false, task: null
+        loaded: false, task: null, intentMemory: new Map(), intentClock: 0
       });
     }
     return contexts.get(key);
@@ -34,7 +34,7 @@
   function emptyRecord() {
     return {
       device: crypto.randomUUID(), next: 1, base: model.empty(),
-      pending: [], rejected: [], migrated: false, sending: 0
+      pending: [], rejected: [], intentReceipts: [], migrated: false, sending: 0
     };
   }
 
@@ -52,10 +52,13 @@
       raw = localStorage.getItem(current.key);
       const record = raw ? JSON.parse(raw) : emptyRecord();
       record.rejected ??= [];
+      record.intentReceipts ??= [];
       if (!record || !Array.isArray(record.pending) || record.pending.length > MAX_PENDING ||
           !Number.isSafeInteger(record.next) || record.next < 1 ||
           !/^[a-f0-9-]{36}$/.test(record.device) || !model.validState(record.base) ||
-          !Array.isArray(record.rejected) || record.rejected.length > MAX_PENDING) {
+          !Array.isArray(record.rejected) || record.rejected.length > MAX_PENDING ||
+          !Array.isArray(record.intentReceipts) || record.intentReceipts.length > MAX_PENDING ||
+          record.intentReceipts.some(id => !/^[a-f0-9-]{36}$/.test(id))) {
         throw new Error('Cache invalide');
       }
       for (const operation of record.pending) validateSequence(operation, record.next);
@@ -107,6 +110,87 @@
     return state;
   }
 
+  const intentPrefix = current => `hessflix-personal-intent-v1:${current.uid}:${current.profile}:`;
+
+  function intents(current) {
+    const result = new Map(current.intentMemory), prefix = intentPrefix(current);
+    try {
+      for (const key of Object.keys(localStorage)) {
+        if (!key.startsWith(prefix)) continue;
+        const id = key.slice(prefix.length);
+        try {
+          const value = JSON.parse(localStorage.getItem(key));
+          if (!/^[a-f0-9-]{36}$/.test(id) || value.id !== id || value.version !== 1 ||
+              !Number.isSafeInteger(value.order) || value.order < 0) throw new Error('Invalid intent');
+          model.validate(value.operation);
+          result.set(id, value);
+        } catch { current.intentError = 'Une modification locale illisible est conservée sans import automatique.'; }
+      }
+    } catch { /* In-memory intents remain available if browser storage is denied. */ }
+    return [...result.values()].sort((left, right) => left.order - right.order || left.id.localeCompare(right.id));
+  }
+
+  function stageIntent(current, operation) {
+    // Independent keys avoid cross-tab read/modify/write races. Persist before
+    // the first await: navigation may destroy a queued Web Locks callback.
+    const record = read(current), waiting = intents(current);
+    if (record.pending.length + waiting.length >= MAX_PENDING) {
+      throw new Error('Trop de modifications en attente : reconnectez-vous avant de continuer.');
+    }
+    const preview = projectedState(record), accepted = new Set(record.intentReceipts);
+    for (const value of waiting) if (!accepted.has(value.id)) {
+      try { model.apply(preview, value.operation); }
+      catch (error) { if (!model.isTerminalRejection(error)) throw error; }
+    }
+    model.apply(preview, operation);
+    const intent = { version: 1, id: crypto.randomUUID(),
+      order: current.intentClock = Math.max(Date.now(), current.intentClock + 1),
+      operation: structuredClone(operation) };
+    current.intentMemory.set(intent.id, intent);
+    try { localStorage.setItem(intentPrefix(current) + intent.id, JSON.stringify(intent)); }
+    catch { current.persistent = false; }
+    return intent;
+  }
+
+  async function drainIntents(current) {
+    return withLock(current, () => {
+      const waiting = intents(current);
+      if (!waiting.length) return;
+      const record = read(current), accepted = new Set(record.intentReceipts);
+      const liveIds = new Set(waiting.map(value => value.id));
+      // Receipts make recovery idempotent if a page dies after saving the main
+      // journal but before removing its independent write-ahead entry.
+      record.intentReceipts = record.intentReceipts.filter(id => liveIds.has(id));
+      const completed = [];
+      for (const intent of waiting) {
+        if (accepted.has(intent.id)) { completed.push(intent.id); continue; }
+        if (record.intentReceipts.length >= MAX_PENDING || record.pending.length >= MAX_PENDING) break;
+        if (current.uid === 'guest') {
+          try { model.apply(record.base, intent.operation); }
+          catch (error) {
+            if (!model.isTerminalRejection(error) || record.rejected.length >= MAX_PENDING) throw error;
+            record.rejected.push({ operation: { ...intent.operation, seq: record.next++ }, reason: error.code, rejectedAt: Date.now() });
+            current.writeError = model.rejectionMessage(error.code);
+          }
+        } else {
+          const operation = intent.operation, previous = record.pending.at(-1);
+          if (operation.type === 'time' && previous?.type === 'time' && previous.seq > record.sending &&
+              previous.day === operation.day && previous.end === operation.start && operation.end - previous.start <= 300000) {
+            previous.end = operation.end;
+          } else record.pending.push({ ...operation, seq: record.next++ });
+        }
+        record.intentReceipts.push(intent.id);
+        completed.push(intent.id);
+      }
+      const persisted = save(current, record);
+      // Never delete the write-ahead entry when committing the journal failed.
+      if (persisted) for (const id of completed) {
+        try { localStorage.removeItem(intentPrefix(current) + id); current.intentMemory.delete(id); }
+        catch { /* A retained entry is deduplicated by its receipt on recovery. */ }
+      }
+    });
+  }
+
   function view(current = active) {
     if (!current) current = active = context(null);
     const record = read(current);
@@ -146,33 +230,15 @@
       throw new Error('Attendez le chargement du profil avant de modifier ses listes.');
     }
     model.validate(operation);
-    await withLock(current, () => {
-      const record = read(current);
-      if (current.uid === 'guest') {
-        model.apply(record.base, operation);
-        save(current, record);
-        return;
-      }
-      if (record.pending.length >= MAX_PENDING) {
-        throw new Error('Trop de modifications en attente : reconnectez-vous avant de continuer.');
-      }
-      const preview = projectedState(record);
-      model.apply(preview, operation);
-      const previous = record.pending.at(-1);
-      if (operation.type === 'time' && previous?.type === 'time' && previous.seq > record.sending &&
-          previous.day === operation.day && previous.end === operation.start &&
-          operation.end - previous.start <= 300000) {
-        previous.end = operation.end;
-      } else {
-        record.pending.push({ ...operation, seq: record.next++ });
-      }
-      save(current, record);
-    }).catch(error => {
+    try {
+      stageIntent(current, operation);
+      await drainIntents(current);
+    } catch (error) {
       if (model.isTerminalRejection(error)) error.message = model.rejectionMessage(error.code);
       current.writeError = error.message;
       if (current === active) emit();
       throw error;
-    });
+    }
     current.writeError = '';
     if (current.uid !== 'guest' && operation.type !== 'time') schedule(current);
     return view(current);
@@ -306,9 +372,11 @@
         current.status = 'loading';
         current.syncError = '';
         if (current === active) emit();
+        await drainIntents(current);
         await migration(current);
         await mergeServerState(current, await request(current, 'GET'));
         for (let batch = 0; batch < 100 && same(owner, current); batch++) {
+          await drainIntents(current);
           const sending = await prepareBatch(current);
           if (!sending.operations.length) break;
           try {
@@ -371,6 +439,7 @@
         record.migrated = true;
         save(next, record);
       }
+      void drainIntents(next).catch(error => { next.writeError = error.message; if (next === active) emit(); });
     } else if (account.profileReady !== false) schedule(next, 0);
     else emit();
   }
@@ -419,10 +488,10 @@
     const state = view();
     const record = read(active);
     banner.hidden = !owner || (active.loaded && !['offline', 'blocked'].includes(state.syncStatus) &&
-      state.persistent && !active.migrationError && !active.writeError && !record.rejected.length &&
+      state.persistent && !active.migrationError && !active.writeError && !active.intentError && !record.rejected.length &&
       !record.pending.some(operation => operation.type !== 'time'));
     const refused = record.rejected.length && (state.pending || active.writeError) ? ` ${refusalMessage(record)}` : '';
-    banner.querySelector('span').textContent = (active.writeError || statusMessage()) + refused +
+    banner.querySelector('span').textContent = (active.intentError || active.writeError || statusMessage()) + refused +
       (active.migrationError ? ' Certaines anciennes données n’ont pas été importées ; les originaux sont conservés.' : '');
     let retryRefused = banner.querySelector('[data-retry-rejected]');
     if (record.rejected.length && !retryRefused) {

@@ -16787,6 +16787,11 @@
       "sha256": "1365f58ea91fe2672affa5ad05439aaa5e92b54ce58db3d2e580286790eece10"
     },
     {
+      "file": "docs/CI_FIX_2026-10-28.md",
+      "bytes": 3991,
+      "sha256": "a63abef1b48e41640e1443111f970fa5632165086e6804074943ecbb20d651e9"
+    },
+    {
       "file": "docs/REVIEW.md",
       "bytes": 8999,
       "sha256": "26323c353cf1e5bf785b0f201d7e2b0d3e0c2ccfa27a004b8c4444a2dfc77491"
@@ -16973,8 +16978,8 @@
     },
     {
       "file": "personal-sync.js",
-      "bytes": 20403,
-      "sha256": "6c17db9f5fe073e21b49997c442a387246dc249403f55787ba53312d2dfe9425"
+      "bytes": 24456,
+      "sha256": "b7c1d451dd33b6124028cc81887837193e0ffe5f4be78f79422c19fb6555db75"
     },
     {
       "file": "platform-catalogue-data.js",
@@ -17268,8 +17273,8 @@
     },
     {
       "file": "tests/browser/auth.spec.cjs",
-      "bytes": 65308,
-      "sha256": "7de10ac6d358c5134bb02de6db9a782b17a7223dcccd11e87a27307314aa8436"
+      "bytes": 66668,
+      "sha256": "f8596ec4d712af683a2adfa04d48ab7834dc8c120e73fb7c09f307434e03319b"
     },
     {
       "file": "tests/browser/catalogue.spec.cjs",
@@ -17288,8 +17293,8 @@
     },
     {
       "file": "tests/browser/personal-recovery.spec.cjs",
-      "bytes": 5699,
-      "sha256": "a2f612a1ab4571f0c67843308a9d87d74d65466f755236cbe2eefb38cc48d33d"
+      "bytes": 10510,
+      "sha256": "fe8c8fc9d77b438b1cd115311c9f600c165d65d87af5d86766315f10456d0b50"
     },
     {
       "file": "tests/browser/search.spec.cjs",
